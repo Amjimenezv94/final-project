@@ -6,11 +6,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import ResultTest from './pages/ResultTest.jsx'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ResultTest />
   </React.StrictMode>,
   document.getElementById('root')
 );
