@@ -6,7 +6,14 @@ class HomePage extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <h1> my home page</h1> );
+        return ( 
+        
+            
+        
+        
+        
+        
+            );
     }
 }
  
