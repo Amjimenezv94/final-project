@@ -9,17 +9,20 @@ const Card = props =>{
             </div>
             <div className="card-body text-dark">
              <h4 className="card-tittle">{props.title}</h4>
-            <p className="card-text text-secondary">
+            <p className="card-text text-secondary ">
                 {props.description}
             </p>
-            <h5 className="card-tittle">ALGUNOS EJEMPLOS</h5>
-                 <ul className="ml-5">
-                    <li>{props.item1}</li>
-                    <li>{props.item2}</li>
-                    <li>{props.item3}</li>
-                    <li>{props.item4}</li>
-                    <li>{props.item5}</li>
+            <h6> {props.askyourselftitle}</h6>   
+             <p  className="card-text text-secondary"> {props.askyourself}</p>   
+            <h5 className="card-tittle">CARRERAS AFINES</h5>
+                 <ul className="">
+                    <li className="ml-5 text-left" >{props.item1}</li>
+                    <li className="ml-5 text-left">{props.item2}</li>
+                    <li className="ml-5 text-left">{props.item3}</li>
+                    <li className="ml-5 text-left">{props.item4}</li>
+                    <li className="ml-5 text-left">{props.item5}</li>
                 </ul>
+             
             
             <a href="#" className="btn btn-outline-success">¿Donde? ¿Como? </a>
             

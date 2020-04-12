@@ -4,6 +4,7 @@ body{
 
 .card{
      width: 20rem;
+    
     }
 
 .card:hover{
@@ -12,6 +13,7 @@ body{
 
 .card-body{
     padding: 3rem 0!important ;
+    
     
 }
 
@@ -23,6 +25,7 @@ body{
 .container.fluid.row{
 padding-top: 6rem;
 padding-bottom: 3rem!important ;
+
 }
 .overflow{
     overflow: hidden;
@@ -35,3 +38,9 @@ padding-bottom: 3rem!important ;
 .card-img-top:hover{
     transform: scale(1.8);
 }
+
+p{
+    text-align: justify;
+}
+
+
