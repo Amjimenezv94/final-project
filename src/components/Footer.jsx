@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
-import AgileInnova from '../assets/img/agileInnovaWhite.png'
-import Makaia from '../assets/img/makaiaWhite.png'
-import '../assets/CSS/footer.css'
+import AgileInnova from '../assets/img/agileInnovaWhite.png';
+import Makaia from '../assets/img/makaiaWhite.png';
+import '../assets/CSS/footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faFacebook } from '@fortawesome/free-solid-svg-icons';
+
 
 class Footer extends Component {
   constructor(props) {
@@ -35,7 +38,8 @@ class Footer extends Component {
             <div className="col-md-4">
               <div className='logos'>
                 <a className="py-2" href="#" aria-label="Product">
-                  <i class="fab fa-instagram"></i>
+                  <FontAwesomeIcon icon={faCoffee} />
+                  
                 </a>
                 <a className="py-2" href="#" aria-label="Product">
                   <i class="fab fa-facebook-square"></i> 
