@@ -16,7 +16,7 @@ class NavBar extends Component {
                         <a className="py-2" href="#" aria-label="Product">
                             <img src={logoWhite} className="" width="200" height="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                         </a>
-                        <ul className="text-white">
+                        <ul className="text-white ">
                             <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Inicio</a>
                             <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Acerca de Nosotros</a>
                             <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Test</a>
