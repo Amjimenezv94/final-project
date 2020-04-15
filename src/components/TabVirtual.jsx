@@ -4,6 +4,7 @@ class TabVirtual extends Component {
 
     render() {
         return (
+            
             <div class="row">
                         <div class="col-lg-4 text-center">
                             <img className="text-centerbd-placeholder-img rounded-circle mb-4 text-center" src="https://tentulogo.com/wp-content/uploads/2018/09/coursera.png" width="180" height="180" alt="..."/>
