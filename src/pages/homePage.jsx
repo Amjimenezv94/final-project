@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Bienvenida from '../components/Bienvenida';
 
 class HomePage extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ class HomePage extends Component {
         return ( 
         
             
-        
+        <Bienvenida/>
         
         
         

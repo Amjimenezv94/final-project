@@ -14,7 +14,7 @@ import Footer from '../src/components/Footer';
 ReactDOM.render(
   <React.StrictMode>
     <NavBar />
-    <Bienvenida />
+    
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
