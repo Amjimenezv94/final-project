@@ -7,24 +7,24 @@ class UserTextImg extends Component {
    }
    render() { 
       return ( 
-         <div class="row justify-content-center  pl-5">
-         <div class="col-lg-4 mb-5 text-center ">
-             <input id="ciencias-salud" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
+         <div className="row justify-content-center  pl-5">
+         <div className="col-lg-3 mr-3 mb-5 text-center ">
+             <input className="img-user-test" id="ciencias-salud" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="160" height="160"/>
          </div>
-         <div class="col-lg-4 mb-5 text-center">
-             <input id= "ingenierias" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
+         <div className="col-lg-3 mr-3 mb-5 text-center">
+             <input className="img-user-test" id= "ingenierias" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="160" height="160"/>
          </div>
-         <div class="col-lg-4 mb-5 text-center">
-             <input id="economia" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
+         <div className="col-lg-3 mr-3 mb-5 text-center">
+             <input className="img-user-test" id="economia" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="160" height="160"/>
          </div>
-         <div class="col-lg-4 mb-5 text-center">
-            <input id="ciencias-sociales" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
+         <div className="col-lg-3 mr-3 mb-5 text-center">
+            <input className="img-user-test" id="ciencias-sociales" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="160" height="160"/> 
          </div>
-         <div class="col-lg-4 mb-5 text-center">
-            <input id="artes" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
+         <div className="col-lg-3 mr-3 mb-5 text-center">
+            <input className="img-user-test" id="artes" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="160" height="160"/> 
          </div>
-         <div class="col-lg-4 mb-5 text-center">
-            <input id="ciencias-naturales" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
+         <div className="col-lg-3 mr-3 mb-5 text-center">
+            <input className="img-user-test" id="ciencias-naturales" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="160" height="160"/> 
          </div>
       </div>
    
@@ -33,3 +33,4 @@ class UserTextImg extends Component {
 }
  
 export default UserTextImg;
+

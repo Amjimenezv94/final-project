@@ -1,6 +1,13 @@
 .panel-body{
-  background-color: rgb(230, 228, 228, .5);
+  background-color: rgba(5, 5, 5, 0.671);
   margin: 10px 10px 10px 10px;
-  border-color: rgb(127, 157, 255);
   border-radius: 10px;
+}
+
+.img-user-test{
+
+}
+
+.boton-user-test{
+
 }
