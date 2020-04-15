@@ -11,7 +11,7 @@ import UserTest from './pages/userTest.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserTest />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
