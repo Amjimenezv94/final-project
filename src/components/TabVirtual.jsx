@@ -4,43 +4,9 @@ class TabVirtual extends Component {
 
     render() {
         return (
-            <section className=" text-center" id="Tab-Virtual">
-                <div className="container pt-2">
-                    <p className="m-2 text-light">Instituciones que poseen cursos, carreras, posgrados y otras ofertas educativas de manera virtual </p>
-                    <br />
-                    <div class="row">
-                        <div class="col-lg-4">
-<<<<<<< HEAD
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-=======
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://tentulogo.com/wp-content/uploads/2018/09/coursera.png" width="180" height="180" alt="..."/>
+            <div class="row">
+                        <div class="col-lg-4 text-center">
+                            <img className="text-centerbd-placeholder-img rounded-circle mb-4 text-center" src="https://tentulogo.com/wp-content/uploads/2018/09/coursera.png" width="180" height="180" alt="..."/>
                             <h2>Coursera</h2>
                             <p className="text-justify p-3">Adquiere habilidades con los cursos, certificados y títulos en línea que ofrecen las universidades y las empresas más importantes del mundo.</p>
                             <ul >
@@ -55,7 +21,7 @@ class TabVirtual extends Component {
                             </ul>
                             <p><a class="btn btn-secondary" href="https://www.coursera.org/" role="button"> Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://about.udemy.com/wp-content/uploads/2016/07/about-default.png" width="180" height="180" alt="..."/>
                             <h2>Udemy</h2>
                             <p className="text-justify p-3">Aprende a tu ritmo, en cualquier momento y en cualquier lugar. Las selección de cursos más amplia del mundo
@@ -71,7 +37,7 @@ class TabVirtual extends Component {
                             </ul>                            
                             <p><a class="btn btn-secondary" href="https://www.udemy.com" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/75/08/2b/75082bcc-d851-141f-de1e-257a7045b291/source/512x512bb.jpg" width="180" height="180" alt="..."/>
                             <h2>@Medellín</h2>
                             <p className="text-justify p-3">Modelo de educación digital de Medellín que ofrece formación integral con el apoyo de la tecnología. Diseñamos programas de educación superior y formación para el trabajo con calidad.</p>
@@ -85,7 +51,7 @@ class TabVirtual extends Component {
                              </ul>         
                             <p><a class="btn btn-secondary" href="https://arrobamedellin.edu.co/programas" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSw--fcz022NsMDafihRsHDBJUZWGBjQ9Pxk3-_Zno4KmCqz9-r&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2>Sena SofiaPlus</h2>
                             <p className="text-justify p-3">sistema maestro de empleo y educación. Esta es la plataforma virtual en la que podrás informarte de los programas, convocatorias y demás procesos de admisión del SENA.</p>
@@ -100,7 +66,7 @@ class TabVirtual extends Component {
                             </ul>         
                             <p><a class="btn btn-secondary" href="http://portal.senasofiaplus.edu.co/index.php/component/content/article/513-cursos-virtuales-sena" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://news.mit.edu/sites/mit.edu.newsoffice/files/images/2012/20120501141221-1_0.jpg" width="180" height="180" alt="..."/>
                             <h2> EDX </h2>
                             <p className="text-justify p-3"> Ofrece cursos en línea para avanzar profesionalmente. Encuentra cursos en línea en formato MOOC de las mejores universidades a nivel mundial</p>
@@ -115,40 +81,11 @@ class TabVirtual extends Component {
                                 <li className="text-left">Video</li>
 
                             </ul>         
-                            <p><a class="btn btn-secondary" href="https://www.edx.org/es" role="button">Ver más »</a></p>
->>>>>>> 17e473f5813347efd1562bdb3faef995abc19161
+                            <p><a class="btn btn-secondary text-center" href="https://www.edx.org/es" role="button">Ver más »</a></p>
                         </div>
 
 
-                        <div class="col-lg-4">
-<<<<<<< HEAD
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQx6T2jUNaOLNz7bf2YDzjkP3wuIcEJ7XrOr4jdw-zVVHyRDgD1&usqp=CAU" width="180" height="180" alt="..." />
-                            <h2 className="text-white">Heading</h2>
-                            <p className="text-white">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                            <p><a class="btn btn-outline-light" href="#" role="button">View details »</a></p>
-                        </div>
-                    </div>
-                </div>
-                
-=======
+                        <div class="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTq-0HOX98utsgnJxKeCrSrkEl85MQOHTkJ-C-TODyIpWgSKk4B&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2> Udacity </h2>
                             <p className="text-justify p-3">  organización educativa con ánimo de lucro fundada por Sebastian Thrun, David Stavens y Mike Sokolsky que ofrece cursos online masivos y abiertos.​</p>
@@ -163,7 +100,7 @@ class TabVirtual extends Component {
                             </ul>         
                             <p><a class="btn btn-secondary" href="https://www.udacity.com/courses/all" role="button">Ver más »</a></p>
                         </div>
-                         <div class="col-lg-4">
+                         <div class="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTKxWhBI6kygHu8LbcR3gIu-Z0rVCOB0n9KIadM2LHh-_vfWLj&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2>Platzi</h2>
                             <p className="text-justify p-3">Todos los cursos y rutas de aprendizaje con mentorías en vivo a un precio especial. Escoge una habilidad y el team platzi te ayudará a conseguirla en tiempo récord. Certificados digitales. Estudia Desde Dónde Estés. Duplica tus ingresos. Invierte en tu educación</p>
@@ -178,7 +115,7 @@ class TabVirtual extends Component {
                             </ul>         
                             <p><a class="btn btn-secondary" href="https://platzi.com" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4 ">
+                        <div class="col-lg-4 text-center ">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://media.licdn.com/dms/image/C510BAQFVQkFuknNudA/company-logo_200_200/0?e=2159024400&v=beta&t=niQD62sYNKOf0tWA_3w3l90I_FaTbEEq3naBFNIfE5I" width="180" height="180" alt="..."/>
                             <h2>Harvard Online Learning</h2>
                             <p className="text-justify p-3"> Explore los cursos en línea de la Universidad de Harvard. Ya sea que se trate de cursos gratuitos sobre literatura o cursos de negocios premium para ejecutivos, hay algo para usted</p>
@@ -193,7 +130,7 @@ class TabVirtual extends Component {
                             </ul>         
                             <p><a class="btn btn-secondary" href="https://online-learning.harvard.edu/catalog" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfhUTgDLGJ0cXJ9WfUkXhs8CyuFUDZFUjgsqQmMBE368uY8_D8&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2>Stanford Online</h2>
                             <p className="text-justify p-3">Nuestros cursos gratuitos en línea le brindan una forma económica y flexible de aprender nuevas habilidades y estudiar temas nuevos y emergentes. Aprenda de los instructores de Stanford y expertos de la industria sin costo para usted. Gran variedad de temáticas. </p>
@@ -210,10 +147,9 @@ class TabVirtual extends Component {
                             <p><a class="btn btn-secondary" href="https://online.stanford.edu/courses-programs" role="button">Ver más »</a></p>
                         </div>                                            
                     </div>
-                </div>
+               
               
->>>>>>> 17e473f5813347efd1562bdb3faef995abc19161
-            </section>
+           
 
         );
     }
