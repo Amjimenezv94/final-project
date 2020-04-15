@@ -11,22 +11,22 @@ class UserTest extends Component {
                 </div>
                 <div class="row justify-content-center  pl-5">
                     <div class="col-lg-4 mb-5 text-center ">
-                        <input type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
+                        <input id="ciencias-salud" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
                     </div>
                     <div class="col-lg-4 mb-5 text-center">
-                        <input type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
+                        <input id= "ingenierias" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
                     </div>
                     <div class="col-lg-4 mb-5 text-center">
-                        <input type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
+                        <input id="economia" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/>
                     </div>
                     <div class="col-lg-4 mb-5 text-center">
-                       <input type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
+                       <input id="ciencias-sociales" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
                     </div>
                     <div class="col-lg-4 mb-5 text-center">
-                       <input type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
+                       <input id="artes" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
                     </div>
                     <div class="col-lg-4 mb-5 text-center">
-                       <input type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
+                       <input id="ciencias-naturales" type='image' src="https://campusvirtual.crc.edu.co/pluginfile.php/98886/coursecat/description/Paz%20Convivencia.png" width="140" height="140"/> 
                     </div>
                  </div>
                             
