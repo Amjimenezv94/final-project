@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faFacebook } from '@fortawesome/free-solid-svg-icons';
 import FacebookIcon from '../assets/img/FacebookIcon.png';
 import InstagramIcon from '../assets/img/InstagramIcon.png';
-import TwitterIcon from '../assets/img/TwitterIcon.png';
+import TwitterIcon from '../assets/img/twitter.png';
 
 
 class Footer extends Component {

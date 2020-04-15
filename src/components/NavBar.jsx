@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logoWhite from '../assets/img/logoWhite.png';
 import '../assets/CSS/navbar.css'
+import AcercaDeNosotros from './AcercaDeNosotros';
 
 class NavBar extends Component {
     constructor(props) {
@@ -18,7 +19,7 @@ class NavBar extends Component {
                         </a>
                         <ul className="text-white ">
                             <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Inicio</a>
-                            <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Acerca de Nosotros</a>
+                            {/* <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Acerca de Nosotros</a> */}
                             <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Test</a>
                             <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Instituciones</a>
                             <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Contacto</a>
