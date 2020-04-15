@@ -11,7 +11,7 @@ import ResultTest from './pages/ResultTest.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <ResultTest />
+   <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
