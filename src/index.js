@@ -10,7 +10,7 @@ import EduMod from './pages/EduMod.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
-    <EduMod />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
