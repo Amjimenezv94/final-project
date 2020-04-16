@@ -7,6 +7,39 @@
 
 }
 
+@media (max-width: 600px) {
+  .title-orientacion{
+     font-size: 35px;
+     text-align: center;
+  }
+}
+
 .parrafo-orientacion{
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
 }
+
+@media (max-width: 600px) {
+  .parrafo-orientacion{
+     font-size: 16px;
+  }
+}
+
+
+
+.contenedor-orientacion{
+  padding-top: 0px;
+}
+
+@media (max-width: 600px) {
+  .input-bienvenida{
+     margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .boton-bienvenida{
+  margin-left: 65px;
+  }
+}
+

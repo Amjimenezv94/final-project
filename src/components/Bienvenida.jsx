@@ -9,16 +9,16 @@ class Bienvenida extends Component {
     render() {
         return (
 
-            <div className="position-relative overflow-hidden text-left text-white">
-                <div className="col-md-5 p-lg-4 my-5 ml-4">
-                    <h1 className="title-orientacion display-5 font-weight-normal"> ORIENTACIÓN VOCACIONAL </h1>
-                    <p className="parrafo-orientacion lead font-weight-normal">Ofrecemos un recurso con el fin de orientar a aquellos que deseen comenzar su educación superior , como también información de Universidades y Académias.</p>
+            <div className="contenedor-orientacion text-left text-white">
+                <div className="col-md-5 pb-5 pt-5">
+                    <h1 className="title-orientacion font-weight-normal"> ORIENTACIÓN VOCACIONAL </h1>
+                    <p className="parrafo-orientacion lead font-weight-normal pb-2">Ofrecémos un test vocacional, el cual te brindará unas bases para orientarte en tu perfil y puedas tener más claro que perfil se ajusta a ti y dónde puedes estudiar.</p>
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-6">
-                                <input type="password" class="form-control" id="inputP" placeholder="Escribenos tu nombre..."></input>
+                            <div className="col-md-7">
+                                <input type="password" class="input-bienvenida form-control" id="inputP" placeholder="Escribenos tu nombre..."></input>
                             </div>
-                            <a className="btn btn-outline-light btn-lg " href="#">ORIENTAME</a>
+                            <a className="boton-bienvenida btn btn-outline-light btn-lg mb-5" href="#">ORIENTAME</a>
                         </div>
                     </div>
                 </div>

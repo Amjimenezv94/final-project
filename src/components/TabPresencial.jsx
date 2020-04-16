@@ -7,7 +7,8 @@ class TabPresencial extends Component {
         return (
             <section className=" text-center" id="Tab-Presencial">
             <div className="container pt-2">
-                <h2 className="text-dark m-4 mt-5 "><strong>OFERTAS FORMATIVAS PRESENCIALES</strong> </h2>
+                <h3 className="text-light">¿Qué es educación presencial?</h3>
+                <p className="text-light m-4 mt-2 "> La educación presencial o convencional, es aquélla que como su nombre lo dice se exige y requiere de una presencialidad obligatoria en el aula para poder dirigir el aprendizaje por medio del profesor, quien en su función más tradicional explica, aclara, comunica ideas y experiencias: el desarrollo del proceso de enseñanza-aprendizaje y docente-educativo, el educando y el profesor se encuentran en la misma dimensión espacio-temporal. </p>
                 <br />
                
                 <div class="row">

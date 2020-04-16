@@ -38,6 +38,9 @@ class NavBar extends Component {
 
 
                         </ul>
+
+
+
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><HomePage /></div>
                             <div class="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>

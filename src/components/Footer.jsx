@@ -19,7 +19,7 @@ class Footer extends Component {
         <nav className="contenedor-footer ">
           <div className="container d-flex flex-column flex-md-row justify-content-between">
             
-          <div className="col-md-4">
+          <div className=" col-md-4">
               <div className='logos mt-3'>
               <a className="py-2" href="#" aria-label="Product">
                   <img className="mr-5" src={FacebookIcon} width="40" height="36" fill="none" stroke="currentColor" />
@@ -35,7 +35,7 @@ class Footer extends Component {
 
             <div className='col-md-4'>
               <div>
-              <p className="text-white text-center mt-3 mr-5">&copy; {(new Date().getFullYear())} | Academia Geek.</p>
+              <p className="logos text-white text-center mt-3 mr-5">&copy; {(new Date().getFullYear())} | Academia Geek.</p>
               </div>
             </div>
 
