@@ -42,6 +42,12 @@ padding-bottom: 3rem!important ;
     transform: scale(1.8);
 }
 
+@media (max-width: 600px) {
+  .card-tab{
+    width: 200px;
+  }
+}
+
 p{
     text-align: justify;
 }
