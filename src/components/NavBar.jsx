@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logoWhite from '../assets/img/logoWhite.png';
 import '../assets/CSS/navbar.css'
 import AcercaDeNosotros from './AcercaDeNosotros';
+import HomePage from '../pages/homePage.jsx'
+import ResultTest from '../pages/ResultTest.jsx'
+import EduMod from '../pages/EduMod.jsx'
 
 class NavBar extends Component {
     constructor(props) {
@@ -12,20 +15,40 @@ class NavBar extends Component {
         return (
 
             <div>
-                <nav className="site-header sticky-top py-1 ">
-                    <div className="container d-flex flex-column flex-md-row justify-content-between">
-                        <a className="py-2" href="#" aria-label="Product">
-                            <img src={logoWhite} className="" width="200" height="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                        </a>
-                        <ul className="text-white ">
-                            <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Inicio</a>
-                            {/* <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Acerca de Nosotros</a> */}
-                            <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Test</a>
-                            <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Instituciones</a>
-                            <a className="text-inicio navegacion py-2 p-3 d-none d-md-inline-block" href="#">Contacto</a>
+                <div className="container ">
+                    <div className="container ">
+                       
+                        <ul class="nav nav-pills  mb-3 p-2 justify-content-center" id="pills-tab" role="tablist">
+                            <li>
+                            <a className="py-2" href="#" aria-label="Product">
+                                <img src={logoWhite} className="" width="200" height="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link  px-5 active text-light" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <h3>Inicio</h3></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link px-5 text-light" id="pills-profesiones-tab" data-toggle="pill" href="#pills-profesiones" role="tab" aria-controls="pills-profesiones" aria-selected="false" id="profesiones"> <h3>Profesiones</h3></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link  px-5  text-light" id="pills-modalidad-tab" data-toggle="pill" href="#pills-modalidad" role="tab" aria-controls="pills-modalidad" aria-selected="true"> <h3>Modalidades</h3></a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link  px-5  text-light" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <h3>Contacto</h3></a>
+                            </li>
+
+
                         </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><HomePage /></div>
+                            <div class="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>
+                            <div class="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>
+
+                        </div>
+
                     </div>
-                </nav>
+
+                </div>
             </div>
 
         );

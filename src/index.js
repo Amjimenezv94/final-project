@@ -7,11 +7,18 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import UserTest from './pages/userTest.jsx'
 import EduMod from './pages/EduMod.jsx'
+import HomePage from './pages/homePage.jsx'
+import NavBar from './components/NavBar.jsx'
+import Footer from './components/Footer.jsx'
+
 
 //Master
 ReactDOM.render(
   <React.StrictMode>
-   <App/>
+    <NavBar/>
+    
+    <Footer/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

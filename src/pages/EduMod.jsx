@@ -26,7 +26,7 @@ class EduMod extends Component {
                 </div>
               
             </div>
-            <Footer/>
+           
             </div>
         );
     }

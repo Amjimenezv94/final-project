@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import AgileInnova from '../assets/img/agileInnovaWhite.png';
 import Makaia from '../assets/img/makaiaWhite.png';
 import '../assets/CSS/footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faFacebook } from '@fortawesome/free-solid-svg-icons';
 import FacebookIcon from '../assets/img/FacebookIcon.png';
 import InstagramIcon from '../assets/img/InstagramIcon.png';
 import TwitterIcon from '../assets/img/twitter.png';
