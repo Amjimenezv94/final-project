@@ -10,9 +10,13 @@ import NavBar from './components/NavBar';
 import Bienvenida from '../src/components/Bienvenida';
 import Footer from '../src/components/Footer';
 
-
+//HomePage
 ReactDOM.render(
   <React.StrictMode>
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 363d310b369382e425314eea2c8caf60ee06ac64
 
   </React.StrictMode>,
   document.getElementById('root')
