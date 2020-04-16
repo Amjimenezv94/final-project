@@ -11,7 +11,7 @@ class AcercaDeNosotros extends Component {
 
       <div className="position-relative overflow-hidden p-1 text-left text-white">
         <div className="col-md-5 p-lg-4 my-5 ml-4">
-          <h1 className="title-orientacion display-5 font-weight-normal"> Sobre Nosotros</h1>
+          <h1 className="title-orientacion display-5 font-weight-normal"> Sobre Nosotros.</h1>
           <p className="parrafo-orientacion lead font-weight-normal">
             
             Somos un grupo de estudiantes de <strong> Académia Geek </strong>, que entusiasmadas por aprender a programar nos unimos y elaboramos este sitio para ustedes, este proyecto está aún en construcción y poco a poco irá creciendo conforme mejoremos nuestras habilidades.

@@ -10,10 +10,10 @@ import NavBar from './components/NavBar';
 import Bienvenida from '../src/components/Bienvenida';
 import Footer from '../src/components/Footer';
 
-
+//HomePage
 ReactDOM.render(
   <React.StrictMode>
-   +
+   
 
   </React.StrictMode>,
   document.getElementById('root')
