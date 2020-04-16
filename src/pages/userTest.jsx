@@ -11,7 +11,7 @@ class UserTest extends Component {
                     <div className="panel-body">
                         <div className="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
                             <h1 className="display-4 text-light"> TEST DE IMÁGENES </h1>
-                            <p className="lead px-5 mx-5 text-justify text-light" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quasi deserunt. Optio, odit dolores laudantium ullam deleniti expedita, velit aut deserunt illo molestias, delectus hic accusamus error! Ut, molestiae porro.</p>
+                            <p className="lead px-5 mx-5 text-justify text-light" > Selecciona 1 imagen y dale click en siguiente.</p>
                         </div>
 
                         <UserTextImg />
