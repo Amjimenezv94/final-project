@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 600px) {
-  .logos{
-    text-align: center;
+  .copy-r{
+    display: none;
   }
 }

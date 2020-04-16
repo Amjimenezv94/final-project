@@ -35,7 +35,7 @@ class Footer extends Component {
 
             <div className='col-md-4'>
               <div>
-              <p className="logos text-white text-center mt-3 mr-5">&copy; {(new Date().getFullYear())} | Academia Geek.</p>
+              <p className="copy-r text-white justify-content-center mt-3 ">&copy; {(new Date().getFullYear())} | Academia Geek.</p>
               </div>
             </div>
 

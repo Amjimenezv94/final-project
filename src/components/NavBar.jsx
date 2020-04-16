@@ -5,6 +5,7 @@ import AcercaDeNosotros from './AcercaDeNosotros';
 import HomePage from '../pages/homePage.jsx'
 import ResultTest from '../pages/ResultTest.jsx'
 import EduMod from '../pages/EduMod.jsx'
+import Contact from '../pages/Contact.jsx'
 
 class NavBar extends Component {
     constructor(props) {
@@ -33,19 +34,16 @@ class NavBar extends Component {
                                 <a class="nav-link   text-light" id="pills-modalidad-tab" data-toggle="pill" href="#pills-modalidad" role="tab" aria-controls="pills-modalidad" aria-selected="true"> <p>Modalidades</p></a>
                             </li>
                             <li class="nav-item py-2" >
-                                <a class="nav-link   text-light" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <p>Contacto</p></a>
+                                <a class="nav-link   text-light" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="true"> <p>Contacto</p></a>
                             </li>
 
 
                         </ul>
-
-
-
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><HomePage /></div>
-                            <div class="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>
-                            <div class="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>
-
+                        <div className="tab-content" id="pills-tabContent">
+                            <div className="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><HomePage /></div>
+                            <div className="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>
+                            <div className="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>
+                            <div className="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><Contact/></div>
                         </div>
 
 
