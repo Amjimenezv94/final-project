@@ -18,7 +18,7 @@ class Bienvenida extends Component {
                             <div className="col-md-6">
                                 <input type="password" class="form-control" id="inputPassword2" placeholder="Escribenos tu nombre"></input>
                             </div>
-                            <a className="btn btn-outline-light " href="#">ORIENTAME</a>
+                            <a className="btn btn-outline-light" href="../pages/userTest.jsx">ORIENTAME</a>
                         </div>
                     </div>
                 </div>
