@@ -9,12 +9,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import NavBar from './components/NavBar';
 import Bienvenida from '../src/components/Bienvenida';
 import Footer from '../src/components/Footer';
+import ResultTest from './pages/ResultTest.jsx'
 
 //Master
 ReactDOM.render(
   <React.StrictMode>
-   
-
+   <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
