@@ -24,7 +24,7 @@ const Card = props =>{
                 </ul>
              
             
-            <a href="#" className="btn btn-outline-success">¿Donde? ¿Como? </a>
+            <a href="#" className="btn btn-outline-dark">¿Donde? ¿Como? </a>
             
             
             </div>
