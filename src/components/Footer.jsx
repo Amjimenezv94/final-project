@@ -15,7 +15,7 @@ class Footer extends Component {
   render() {
     return (
 
-      <div>
+      <footer class="footer">
         <nav className="contenedor-footer ">
           <div className="container d-flex flex-column flex-md-row justify-content-between">
             
@@ -40,19 +40,19 @@ class Footer extends Component {
             </div>
 
             <div className="col-md-4">
-              <div className='logos'>
+              <div className='logos-academia'>
                 <a className="py-2" href="#" aria-label="Product">
-                  <img className="mr-3" src={AgileInnova} width="110" height="60" fill="none" stroke="currentColor" />
+                  <img className="logo-academia-pequeño mr-3" src={AgileInnova} width="110" height="60" fill="none" stroke="currentColor" />
                 </a>
                 <a className="py-2" href="#" aria-label="Product">
-                  <img className="" src={Makaia} width="200" height="60" fill="none" stroke="currentColor" />
+                  <img className="logo-academia-pequeño" src={Makaia} width="200" height="60" fill="none" stroke="currentColor" />
                 </a>
               </div>
             </div>
 
           </div>
         </nav>
-      </div>
+      </footer>
 
 
     );
