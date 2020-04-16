@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import TabVirtual from '../components/TabVirtual.jsx'
 import TabPresencial from '../components/TabPresencial.jsx'
-import Footer from '../components/Footertemp.jsx'
 import '../assets/CSS/tabs.css'
 
 class EduMod extends Component {
