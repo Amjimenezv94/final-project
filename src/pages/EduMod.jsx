@@ -8,9 +8,9 @@ class EduMod extends Component {
 
     render() {
         return (
-            <div className="bg-modalities container">
+            <div className="bg-modalities py-5 position-relative container">
             <div className="container">
-                <ul class="nav nav-pills  mb-3 p-2 justify-content-center" id="pills-tab" role="tablist">
+                <ul class="nav nav-pills  mt-4 mb-3 p-2 justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" >
                         <a class="nav-link  px-5 active text-light" id="pills-virtual-tab" data-toggle="pill" href="#pills-virtual" role="tab" aria-controls="pills-virtual" aria-selected="true"> <h3>VIRTUAL</h3></a>
                     </li>

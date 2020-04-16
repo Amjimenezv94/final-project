@@ -14,10 +14,10 @@ class ResultTest extends Component {
 
 
 
-            <div className="container-fluid d-flex justify-content-center mx-3"> 
+            <div className="container-fluid py-5 d-flex justify-content-center mx-3"> 
 
                 <div className="row ">
-                    <div className="col-md-12 text-center text-light">
+                    <div className="col-md-12 mt-5 text-center text-light">
                         <h1> RAMAS Ó CAMPOS LABORALES </h1>
                     </div>
                     <div className="col-md-6 p-3">

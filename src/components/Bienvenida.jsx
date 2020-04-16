@@ -9,8 +9,8 @@ class Bienvenida extends Component {
     render() {
         return (
 
-            <div className="contenedor-orientacion text-left text-white">
-                <div className="col-md-5 pb-5 pt-5">
+            <div className="contenedor-orientacion position-relative  py-5 text-left text-white">
+                <div className="col-md-5 pb-3 mt-5 pt-5">
                     <h1 className="title-orientacion font-weight-normal"> ORIENTACIÓN VOCACIONAL </h1>
                     <p className="parrafo-orientacion lead font-weight-normal pb-2">Ofrecémos un test vocacional, el cual te brindará unas bases para orientarte en tu perfil y puedas tener más claro que perfil se ajusta a ti y dónde puedes estudiar.</p>
                     <div className="container">
