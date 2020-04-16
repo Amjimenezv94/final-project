@@ -7,7 +7,7 @@ class EduMod extends Component {
 
     render() {
         return (
-            <div className="bg-modalities py-5 position-relative container">
+            <div className="bg-modalities py-5 my-5 position-relative container">
             <div className="container">
                 <ul class="nav nav-pills  mt-4 mb-3 p-2 justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" >
@@ -18,7 +18,7 @@ class EduMod extends Component {
                     </li>
                    
                 </ul>
-                <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content py-4" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-virtual" role="tabpanel" aria-labelledby="pills-virtual-tab"><TabVirtual/></div>
                     <div class="tab-pane fade" id="pills-presencial" role="tabpanel" aria-labelledby="pills-presencial-tab"><TabPresencial/></div>
                     

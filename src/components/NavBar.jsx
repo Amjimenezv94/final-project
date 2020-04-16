@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import logoWhite from '../assets/img/logoWhite.png';
-import '../assets/CSS/navbar.css'
+import '../assets/CSS/navbar.css';
 import AcercaDeNosotros from './AcercaDeNosotros';
-import HomePage from '../pages/homePage.jsx'
-import ResultTest from '../pages/ResultTest.jsx'
-import EduMod from '../pages/EduMod.jsx'
-import Contact from '../pages/Contact.jsx'
-import UserTest from '../pages/UserTest.jsx'
+import HomePage from '../pages/homePage.jsx';
+import ResultTest from '../pages/ResultTest.jsx';
+import EduMod from '../pages/EduMod.jsx';
+import Contact from '../pages/Contact.jsx';
+import UserTest from '../pages/UserTest.jsx';
+
 
 class NavBar extends Component {
     constructor(props) {
@@ -28,6 +29,9 @@ class NavBar extends Component {
                             <li class="nav-item  py-2 mt-2 mr-4 ml-5" >
                                 <a class="navegacion active text-light " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <p>Inicio</p></a>
                             </li>
+                            <li class="nav-item  py-2 mt-2 mr-4 ml-5" >
+                                <a class="navegacion active text-light " id="pills-nosotros-tab" data-toggle="pill" href="#pills-nosotros" role="tab" aria-controls="pills-nosotros" aria-selected="true"> <p>Nosotros</p></a>
+                            </li>
                             <li class="nav-item py-2 mt-2 mr-4" >
                                 <a class="navegacion text-light" id="pills-test-tab" data-toggle="pill" href="#pills-test" role="tab" aria-controls="pills-test" aria-selected="false" id="profesiones"> <p>Orientame</p></a>
                             </li>
@@ -45,6 +49,7 @@ class NavBar extends Component {
                         </ul>
                         <div className="tab-content" id="pills-tabContent">
                             <div className="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><HomePage /></div>
+                            <div className="tab-pane fade " id="pills-nosotros" role="tabpanel" aria-labelledby="pills-nosotros-tab"><AcercaDeNosotros /></div>
                             <div className="tab-pane fade" id="pills-test" role="tabpanel" aria-labelledby="pills-test-tab"><UserTest/></div>
                             <div className="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>
                             <div className="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>

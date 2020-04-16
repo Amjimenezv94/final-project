@@ -1,13 +1,10 @@
 .panel-body{
-  background-color: rgba(255, 255, 255, 0.692);
-  margin: 10px 10px 10px 10px;
+  background-color: rgba(0, 0, 0, 0.692);
+  margin: 300px 10px 10px 10px;
   border-radius: 10px;
+  margin-top: 100px;
 }
 
-.img-user-test{
-
-}
-
-.boton-user-test{
-
+.container{
+margin-top: 50px;
 }
