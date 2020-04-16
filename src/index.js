@@ -6,7 +6,7 @@ import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import UserTest from './pages/userTest.jsx'
-
+import EduMod from './pages/EduMod.jsx'
 
 //Master
 ReactDOM.render(
