@@ -1,0 +1,12 @@
+
+
+.text-inicio{
+  text-decoration: none;
+  color: rgba(214, 214, 214, 0.781);
+ 
+}
+
+.text-inicio:hover{
+   text-decoration: underline;
+   color: white;
+}

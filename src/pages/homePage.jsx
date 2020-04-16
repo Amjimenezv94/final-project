@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Bienvenida from '../components/Bienvenida';
 
 class HomePage extends Component {
     constructor(props) {
@@ -6,7 +7,14 @@ class HomePage extends Component {
         this.state = {  }
     }
     render() { 
-        return ( <h1> my home page</h1> );
+        return ( 
+        
+            
+        <Bienvenida/>
+        
+        
+        
+            );
     }
 }
  
