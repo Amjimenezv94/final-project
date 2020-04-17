@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import '../assets/CSS/bienvenida.css'
 import Login from './Login.jsx'
 
+
 class Bienvenida extends Component {
     constructor(props) {
         super(props);
         this.state = {};
     }
     openTab = () => {
+        console.log('hello world');
         document.getElementById('profesiones').click();
     };
     render() {
