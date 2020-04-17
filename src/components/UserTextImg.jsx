@@ -7,41 +7,21 @@ class UserTextImg extends Component {
 
       super(props);
           
-      this.state={
-      salud:0,
+      this.state = {
+         salud: 0,
+         ingenieria: 0,
+         economia: 0,
+         cienciasSociales: 0,
+         artes: 0,
+         cienciasNaturales: 0,
       };
-      
-      this.state={
-          ingenieria:0,
-          };
-      
-      
-      this.state={
-         economia:0,
-         };
-
-
-      this.state={
-        cienciasSociales:0,
-        };
-
-      this.state={
-        artes:0,
-         };
-
-      this.state={
-         cienciasNaturales:0,
-         };
-     }
+   }
       
       sumarSalud = ()=>{ 
-          this.setState(
-              {
-               salud: this.state.salud++,
-               
-                      
-              }
-          ); { console.log(this.props.salud) }
+         this.setState({
+            salud: this.state.salud + 1
+         });
+         console.log(this.state.salud)
       }; 
       
        sumaringenieria = ()=>{ 
