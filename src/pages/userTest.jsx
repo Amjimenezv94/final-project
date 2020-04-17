@@ -4,6 +4,9 @@ import '../assets/CSS/userTest.css'
 import UserTextImg2 from '../components/UserTextImg2';
 import UserTextImg3 from '../components/UserTextImg3';
 import UserTextImg4 from '../components/UserTextImg4';
+import UserTextImg5 from '../components/UserTextImg5';
+import UserTextImg6 from '../components/UserTextImg6';
+import UserTextThanks from '../components/UserTestThanks.jsx';
 
 class UserTest extends Component {
     constructor(props) {
@@ -43,6 +46,20 @@ class UserTest extends Component {
                         <div className={this.displayComponent(3)}>
                             <UserTextImg4/>
                         </div>
+
+                        <div className={this.displayComponent(4)}>
+                            <UserTextImg5/>
+                        </div>
+
+                        <div className={this.displayComponent(5)}>
+                            <UserTextImg6/>
+                        </div>
+
+                        <div className={this.displayComponent(6)}>
+                            <UserTextThanks/>
+                        </div>
+
+
 
                         <div className="col-lg-12 text-center pb-4">
                             <button
