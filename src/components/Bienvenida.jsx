@@ -7,6 +7,7 @@ class Bienvenida extends Component {
         this.state = {};
     }
     openTab = () => {
+        console.log('hello world');
         document.getElementById('profesiones').click();
     };
     render() {
