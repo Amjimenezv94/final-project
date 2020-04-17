@@ -21,13 +21,13 @@ class Footer extends Component {
             
           <div className=" col-md-4">
               <div className='logos mt-3'>
-              <a className="py-2" href="#" aria-label="Product">
+              <a className="py-2" href="https://www.facebook.com/orientame.antioquia.7" aria-label="Product">
                   <img className="mr-5" src={FacebookIcon} width="40" height="36" fill="none" stroke="currentColor" />
                 </a>
-                <a className="py-2" href="#" aria-label="Product">
+                <a className="py-2" href="https://www.instagram.com/orientar_antioquia/" aria-label="Product">
                   <img className="mr-5" src={InstagramIcon} width="40" height="40" fill="none" stroke="currentColor" />
                 </a>
-                <a className="py-2" href="#" aria-label="Product">
+                <a className="py-2" href="https://twitter.com/Orientar7" aria-label="Product">
                   <img className="" src={TwitterIcon} width="40" height="40" fill="none" stroke="currentColor" />
                 </a>
               </div>

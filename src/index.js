@@ -9,11 +9,12 @@ import NavBar from './components/NavBar.jsx'
 import Footer from './components/Footer.jsx'
 
 
+
 //Master
 ReactDOM.render(
   <React.StrictMode>
     <NavBar/>
-    
+   
     <Footer/>
 
   </React.StrictMode>,
