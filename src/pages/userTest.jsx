@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import UserTextImg from '../components/UserTextImg';
 import '../assets/CSS/userTest.css'
 import UserTextImg2 from '../components/UserTextImg2';
+import UserTextImg3 from '../components/UserTextImg3';
+import UserTextImg4 from '../components/UserTextImg4';
 
 class UserTest extends Component {
     constructor(props) {
@@ -32,6 +34,14 @@ class UserTest extends Component {
 
                         <div className={this.displayComponent(1)}>
                             <UserTextImg2/>
+                        </div>
+
+                        <div className={this.displayComponent(2)}>
+                            <UserTextImg3/>
+                        </div>
+
+                        <div className={this.displayComponent(3)}>
+                            <UserTextImg4/>
                         </div>
 
                         <div className="col-lg-12 text-center pb-4">
