@@ -4,14 +4,22 @@ import Login from './Login.jsx'
 
 
 class Bienvenida extends Component {
+    
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+             
+        };
     }
+    
+       
+       // var local =JSON.stringify(localStorage.getItem("Nombre")
     openTab = () => {
         console.log('hello world');
         document.getElementById('profesiones').click(); 
     };
+
+    
     render() {
         return (
 
@@ -22,7 +30,8 @@ class Bienvenida extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-7">
-                                <input type="text" class="input-bienvenida form-control" id="inputP" placeholder="Escribenos tu nombre..."></input>
+                           
+                            <input type="text" class="input-bienvenida form-control" id="inputP" placeholder="Escribenos tu nombre..."></input>
                             </div>
                             <a className="boton-bienvenida btn btn-outline-light btn-lg mb-5" onClick={this.openTab}>ORIENTAME</a>
 

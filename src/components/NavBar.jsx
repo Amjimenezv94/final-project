@@ -7,6 +7,7 @@ import ResultTest from '../pages/ResultTest.jsx';
 import EduMod from '../pages/EduMod.jsx';
 import Contact from '../pages/Contact.jsx';
 import UserTest from '../pages/UserTest.jsx'
+import Login from './Login.jsx'
 
 
 class NavBar extends Component {
@@ -15,6 +16,7 @@ class NavBar extends Component {
         this.state = {}
     }
     render() {
+        var local = localStorage.getItem("Nombre");
         return (
 
             <div>
@@ -44,9 +46,11 @@ class NavBar extends Component {
                             <li class="nav-item py-2 mt-2 mr-4" >
                                 <a class="navegacion   text-light" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="true"> <p>Contacto</p></a>
                             </li>
+                           
 
 
                         </ul>
+                        
                         <div className="tab-content" id="pills-tabContent">
                             <div className="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><HomePage /></div>
                             <div className="tab-pane fade " id="pills-nosotros" role="tabpanel" aria-labelledby="pills-nosotros-tab"><AcercaDeNosotros /></div>
@@ -55,7 +59,6 @@ class NavBar extends Component {
                             <div className="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>
                             <div className="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><Contact/></div>
                         </div>
-
 
                     </div>
                 </div>

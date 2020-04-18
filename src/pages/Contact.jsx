@@ -9,7 +9,7 @@ class Contact extends Component {
                     <h1 className="contacto font-weight-normal text-center"> CONTÁCTANOS </h1>
                     <p className="lead font-weight-normal">
                         Nos encanta apoyarte en tu proceso, si tienes alguna duda o sugerencia puedes hacernos la llegar</p>
-                    <div className="container">
+                    <form method="POST" action="" className="container">
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="row">
@@ -45,8 +45,8 @@ class Contact extends Component {
                                     </div>
 
                                     <div className="col-md-6 mb-3">
-                                            <label for="country">Municipio</label>
-                                            <select className="custom-select d-block w-100" id="country" required="">
+                                            <label for="municipio">Municipio</label>
+                                            <select className="custom-select d-block w-100" id="municipio" required="">
                                                 <option value="">Selecciona...</option>
                                                 <option>Medellín</option>
                                                 <option>Abejorral</option>
@@ -63,8 +63,8 @@ class Contact extends Component {
                                     </div>
 
                                     <div className="col-md-12 mb-3">
-                                        <label for="address">Comentarios</label>
-                                        <input type="text" className="form-control" id="address" placeholder="PQRS" required=""/>
+                                        <label for="comments">Comentarios</label>
+                                        <input type="text" className="form-control" id="comments" placeholder="PQRS" required=""/>
                                         <div className="invalid-feedback">
                                             Please enter your comments.
                                         </div>
@@ -78,7 +78,7 @@ class Contact extends Component {
                             <a className="btn btn-outline-light text-center" href="">ENVIAR</a>
                         </div>
                         
-                    </div>
+                    </form>
                 </div>
             </div>
 
