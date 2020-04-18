@@ -6,7 +6,7 @@ import HomePage from '../pages/homePage.jsx';
 import ResultTest from '../pages/ResultTest.jsx';
 import EduMod from '../pages/EduMod.jsx';
 import Contact from '../pages/Contact.jsx';
-import UserTest from '../pages/UserTest.jsx';
+import UserTest from '../pages/UserTest.jsx'
 
 
 class NavBar extends Component {

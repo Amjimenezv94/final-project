@@ -9,11 +9,20 @@ import firebaseConfig from '../firebase'
 const firebaseApp =firebase.initializeApp(firebaseConfig);
 
 class Login extends Component {
+ 
+
+  componentDidUpdate() {
+    const { user } = this.props;
+    if (user) {
+      localStorage.setItem("Nombre", user.displayName);
+    }
+  }
+
+
     render() { 
        const {user,signOut,signInWithGoogle}=this.props;
        
-       localStorage.setItem("Nombre",usuario);
-       var usuario=user;
+      
 
        
        return(
