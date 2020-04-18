@@ -5,28 +5,38 @@ import 'firebase/auth';
 import firebaseConfig from '../firebase'
 
 
+
 const firebaseApp =firebase.initializeApp(firebaseConfig);
 
 class Login extends Component {
     render() { 
        const {user,signOut,signInWithGoogle}=this.props;
+       
+       localStorage.setItem("Nombre",usuario);
+       var usuario=user;
+
+       
        return(
          <div>
              {
                  user ?
                  <p  className="text-center "> Hola, {user.displayName}, Da click en Orientame !</p>
+                 
                   : <p className="text-center "> Porfavor, Logueate</p>
 
               }
               {
-                  user ? <button className ="btn btn-outline-light btn-lg mb-5"   onClick={signOut}>Sing out</button>
+                  user ? <button className ="btn btn-outline-light btn-lg mb-5"  onClick={signOut}>Sing out</button>
                        : <button className ="btn btn-outline-light btn-lg mb-5"  onClick={signInWithGoogle}>Ingresa con Google</button>
               }
+              
          </div>  
        ); 
     }
 }
- 
+
+
+
 const firebaseAppAuth= firebaseApp.auth();
 
 const providers= {
@@ -37,3 +47,4 @@ export default withFirebaseAuth({
   providers,
   firebaseAppAuth,  
 })(Login);
+

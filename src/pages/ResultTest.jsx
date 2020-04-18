@@ -1,25 +1,37 @@
-import React, { Component } from 'react'
-import CardResultTest from '../components/CardResultTest.jsx'
+import React, { Component } from 'react';
+import CardResultTest from '../components/CardResultTest.jsx';
 import artes from '../assets/img/artes.jpg';
 import Humanidades from '../assets/img/Humanidades.jpg';
 import Ingenierias from '../assets/img/Ingenierias.jpg';
 import Economia from '../assets/img/Economia.jpg';
 import Medicina from '../assets/img/Medicina.jpg';
-import Biologia from '../assets/img/Biologia.jpg'
+import Biologia from '../assets/img/Biologia.jpg';
 
-class ResultTest extends Component {
 
+
+class ResultTest extends Component{
+    
+   
+        
     render() {
+              
+        var local = localStorage.getItem("Nombre");
+       
+       // var local =JSON.stringify(localStorage.getItem("Nombre"));
         return (
-
-
-
+        
+            
             <div className="container-fluid py-5 d-flex justify-content-center mx-3"> 
 
                 <div className="row ">
                     <div className="col-md-12 mt-5 text-center text-light">
                         <h1> RAMAS Ó CAMPOS LABORALES </h1>
+                        <br/>
+                        <p id="Resultado" className="text-center justify-content-center"> <strong>{local}</strong> parece que tienes habilidades marcadas en <strong>RESULTADO CONTADOR</strong> te invitamos a explorar dicha rama.</p>       
+                    
                     </div>
+
+                   
                     <div className="col-md-6 p-3">
                         <CardResultTest imgsrc={Biologia} title='CIENCIAS NATURALES' description=' Inmerso en este mundo se encuentran aquellos quienes están en capacidad de enfrentar retos en investigación científica y tecnológica y contribuyen al desarrollo de la industria por medio de su conocimiento sobre el mundo natural.' 
                         askyourselftitle='PREGÚNTATE:' askyourself='¿Eres bueno en razonamiento lógico? 
