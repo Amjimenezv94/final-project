@@ -3,7 +3,7 @@ import '../assets/CSS/CardResultTest.css'
 
 const Card = props =>{
     return(
-        <div className="card text-center shadow ">
+        <div className="card text-center shadow m-2">
             <div className="overflow">
               <img src={props.imgsrc} alt=" Carreras administrativas" className='card-img-top'/>
             </div>
