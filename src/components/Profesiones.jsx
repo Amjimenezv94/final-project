@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import CardResultTest from '../components/CardResultTest.jsx';
 import artes from '../assets/img/artes.jpg';
 import Humanidades from '../assets/img/Humanidades.jpg';
@@ -8,20 +7,11 @@ import Economia from '../assets/img/Economia.jpg';
 import Medicina from '../assets/img/Medicina.jpg';
 import Biologia from '../assets/img/Biologia.jpg';
 
-class ResultTest extends Component{
+class Profesiones extends Component{
     constructor(props) {
         super(props);
     }
 
-    displayComponent = (contador) => {
-        let className = 'col-md-6 p-3';
-
-        if (this.props.seleccion !== contador) {
-            className += ' d-none';
-        };
-
-        return className;
-    }
     render() {
               
         var local = localStorage.getItem("Nombre");
@@ -56,14 +46,14 @@ class ResultTest extends Component{
                         item1='Artes plásticas'item2='Visuales y afines'item3='Artes representativas'
                         item4='Música'item5='Diseño' />
                     </div>
-                    <div className={this.displayComponent('cienciasSociales')}>
+                    <div className={this.displayComponent('cienciasSocialesHumanas')}>
                         <CardResultTest imgsrc={Humanidades} title='CIENCIAS SOCIALES Y HUMANAS' description='Si te sueles apropiar de aquellos conocimientos de los campos de las ciencias sociales y humanas que posibilitan una comprensión e interpretación de contextos y problemáticas de individuos, grupos, social y culturalmente diversos, aquí te estamos esperando.
 
                         Pregúntate: ¿Sueles tener una mirada crítica sobre los diferentes aspectos de la sociedad?  ¿Te gusta leer y escribir?  ¿Te gustan trabar al aire libre?'
                          item1='Relaciones internacionales'item2='comunicación social y periodismo'item3='deportes y recreación'
                          item4='Trabajo social'item5='Psicologia'/>
                     </div>
-                    <div className={this.displayComponent('ingenieria')}>
+                    <div className={this.displayComponent('ingenierias')}>
                         <CardResultTest imgsrc={Ingenierias} title='INGENIERÍAS' description=' Aquí encontramos a aquellos innovadores con competencias en el análisis, diseño, desarrollo, administración y gestión de sistemas para el procesamiento de información, que contribuyan a la generación de soluciones que aporten a la realización de las necesidades de su entorno y de los requerimientos de las organizaciones donde se desenvuelvan.
                         ¿Eres bueno desarrollando más de una estrategia para llegar a la solución de un problema? ¿Sueles usar los conocimientos previos que tienes para utilizarlos en nuevas situaciones? ¿Te sientes cómodo usando diferentes herramientas informáticas?' 
                         item1='Ingenieria Agroindustrial 'item2='Ingeniería de sistemas'item3='Ingeniería biomédica'
@@ -75,7 +65,7 @@ class ResultTest extends Component{
                         item1='Economía'item2='Administración de empresas'item3='Contaduria pública'
                         item4='Gerencia de proyectos'item5='Entre otras' />
                     </div>
-                    <div className={this.displayComponent('salud')}>
+                    <div className={this.displayComponent('cienciasDeLaSalud')}>
                         <CardResultTest imgsrc={Medicina} title='CIENCIAS DE LA SALUD' description='Desde esta área podrás intervenir en el proceso de la salud-enfermedad en los ámbitos individuales, familiares y de comunidad, desde la niñez hasta la vejez. Te encontrarás constantemente en capacitación y aprendizaje, siempre al servicio del bien común.'
                         askyourselftitle='PREGÚNTATE LO SIGUIENTE:' askyourself=' ¿Te gustan las diferentes disciplinas que trabajan para intervenir en el proceso de la salud-enfermedad del ser humano?  ¿Eres bueno tomando decisiones rápidas bajo presión? y por ultimo, pero no menos importante ¿Te gusta ayudar a los demás, aunque a veces las personas no sean amables contigo?'
                         item1='Medicina'item2='Nutrició y dietética'item3='Odontología'
@@ -86,8 +76,5 @@ class ResultTest extends Component{
     }
 }
 
-ResultTest.propTypes = {
-    seleccion: PropTypes.string
-}
 
-export default ResultTest;
+export default Profesiones;
