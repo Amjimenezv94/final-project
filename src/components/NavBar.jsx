@@ -35,7 +35,7 @@ class NavBar extends Component {
                                 <a className="navegacion active text-light " id="pills-nosotros-tab" data-toggle="pill" href="#pills-nosotros" role="tab" aria-controls="pills-nosotros" aria-selected="true"> <p>Nosotros</p></a>
                             </li>
                             <li className="nav-item py-2 mt-2 mr-4" >
-                                <a className="navegacion text-light" id="pills-test-tab" data-toggle="pill" href="#pills-test" role="tab" aria-controls="pills-test" aria-selected="false" id="profesiones"> <p>Orientame</p></a>
+                                <a className="navegacion text-light" id="pills-test-tab" data-toggle="pill" href="#pills-test" role="tab" aria-controls="pills-test" aria-selected="false" > <p>Orientame</p></a>
                             </li>
                             <li className="nav-item py-2 mt-2 mr-4" >
                                 <a className="navegacion text-light disabled" id="pills-profesiones-tab" data-toggle="pill" href="#pills-profesiones" role="tab" aria-controls="pills-profesiones" aria-selected="false" id="profesiones" > <p>Resultado</p></a>
