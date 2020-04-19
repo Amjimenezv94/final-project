@@ -10,8 +10,8 @@ class TabVirtual extends Component {
                 <h3 className="text-light">¿Qué es educación virtual?</h3>
                 <p className="text-light m-4 mt-2 "> La educación virtual o educación en línea, se refiere al desarrollo de actividades de aprendizaje mediante entornos virtuales o no presenciales, donde el educando puede instruirse sin la necesidad de estar presencialmente asistiendo en un centro educativo. </p>
                 <br />
-            <div class="row">
-                        <div class="col-lg-4 text-center">
+            <div className="row">
+                        <div className="col-lg-4 text-center">
                             <img className="text-centerbd-placeholder-img rounded-circle mb-4 text-center" src="https://tentulogo.com/wp-content/uploads/2018/09/coursera.png" width="180" height="180" alt="..."/>
                             <h2 className="text-light">Coursera</h2>
                             <p className="text-justify p-3 text-light">Adquiere habilidades con los cursos, certificados y títulos en línea que ofrecen las universidades y las empresas más importantes del mundo.</p>
@@ -25,11 +25,11 @@ class TabVirtual extends Component {
                                 <li className="text-left">Aprendizaje de un idioma</li>
                                 
                             </ul>
-                            <p><a class="btn btn-outline-light" href="https://www.coursera.org/" role="button"> Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="https://www.coursera.org/" role="button"> Ver más »</a></p>
                         </div>
 
                         
-                        <div class="col-lg-4 text-center">
+                        <div className="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://about.udemy.com/wp-content/uploads/2016/07/about-default.png" width="180" height="180" alt="..."/>
                             <h2 className="text-light">Udemy</h2>
                             <p className="text-justify p-3 text-light">Aprende a tu ritmo, en cualquier momento y en cualquier lugar. Las selección de cursos más amplia del mundo
@@ -43,9 +43,9 @@ class TabVirtual extends Component {
                                 <li className="text-left">Salud y fitness</li>
                                 <li className="text-left">Salud y fitness</li>
                             </ul>                            
-                            <p><a class="btn btn-outline-light" href="https://www.udemy.com" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="https://www.udemy.com" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div className="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/75/08/2b/75082bcc-d851-141f-de1e-257a7045b291/source/512x512bb.jpg" width="180" height="180" alt="..."/>
                             <h2 className="text-light">@Medellín</h2>
                             <p className="text-justify p-3 text-light">Modelo de educación digital de Medellín que ofrece formación integral con el apoyo de la tecnología. Diseñamos programas de educación superior y formación para el trabajo con calidad.</p>
@@ -57,9 +57,9 @@ class TabVirtual extends Component {
                                 <li className="text-left">Tecnología en Gestión Turística</li>
                                 <li className="text-left">Tecnología en Gestión Ambiental</li>
                              </ul>         
-                            <p><a class="btn btn-outline-light" href="https://arrobamedellin.edu.co/programas" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="https://arrobamedellin.edu.co/programas" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div className="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSw--fcz022NsMDafihRsHDBJUZWGBjQ9Pxk3-_Zno4KmCqz9-r&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2 className="text-light">Sena SofiaPlus</h2>
                             <p className="text-justify p-3 text-light">sistema maestro de empleo y educación. Esta es la plataforma virtual en la que podrás informarte de los programas, convocatorias y demás procesos de admisión del SENA.</p>
@@ -72,9 +72,9 @@ class TabVirtual extends Component {
                                 <li className="text-left">Gestion organizacional</li>
                                 <li className="text-left">Marroquineria</li>
                             </ul>         
-                            <p><a class="btn btn-outline-light" href="http://portal.senasofiaplus.edu.co/index.php/component/content/article/513-cursos-virtuales-sena" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="http://portal.senasofiaplus.edu.co/index.php/component/content/article/513-cursos-virtuales-sena" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div className="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://news.mit.edu/sites/mit.edu.newsoffice/files/images/2012/20120501141221-1_0.jpg" width="180" height="180" alt="..."/>
                             <h2 className="text-light"> EDX </h2>
                             <p className="text-justify p-3 text-light"> Ofrece cursos en línea para avanzar profesionalmente. Encuentra cursos en línea en formato MOOC de las mejores universidades a nivel mundial</p>
@@ -89,11 +89,11 @@ class TabVirtual extends Component {
                                 <li className="text-left">Video</li>
 
                             </ul>         
-                            <p><a class="btn btn-outline-light text-center" href="https://www.edx.org/es" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light text-center" href="https://www.edx.org/es" role="button">Ver más »</a></p>
                         </div>
 
 
-                        <div class="col-lg-4 text-center">
+                        <div className="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTq-0HOX98utsgnJxKeCrSrkEl85MQOHTkJ-C-TODyIpWgSKk4B&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2 className="text-light"> Udacity </h2>
                             <p className="text-justify p-3 text-light">  organización educativa con ánimo de lucro fundada por Sebastian Thrun, David Stavens y Mike Sokolsky que ofrece cursos online masivos y abiertos.​</p>
@@ -106,9 +106,9 @@ class TabVirtual extends Component {
                                 <li className="text-left">Sistemas autonomos</li>
                                 <li className="text-left">Carreras</li>
                             </ul>         
-                            <p><a class="btn btn-outline-light" href="https://www.udacity.com/courses/all" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="https://www.udacity.com/courses/all" role="button">Ver más »</a></p>
                         </div>
-                         <div class="col-lg-4 text-center">
+                         <div className="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTKxWhBI6kygHu8LbcR3gIu-Z0rVCOB0n9KIadM2LHh-_vfWLj&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2 className="text-light">Platzi</h2>
                             <p className="text-justify p-3 text-light">Todos los cursos y rutas de aprendizaje con mentorías en vivo a un precio especial. Escoge una habilidad y el team platzi te ayudará a conseguirla en tiempo récord. Certificados digitales. Estudia Desde Dónde Estés. Duplica tus ingresos. Invierte en tu educación</p>
@@ -121,9 +121,9 @@ class TabVirtual extends Component {
                                 <li className="text-left">Crecimiento Personal</li>
                                 <li className="text-left">Ciencias básicas</li>
                             </ul>         
-                            <p><a class="btn btn-outline-light" href="https://platzi.com" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="https://platzi.com" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4 text-center ">
+                        <div className="col-lg-4 text-center ">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://media.licdn.com/dms/image/C510BAQFVQkFuknNudA/company-logo_200_200/0?e=2159024400&v=beta&t=niQD62sYNKOf0tWA_3w3l90I_FaTbEEq3naBFNIfE5I" width="180" height="180" alt="..."/>
                             <h2 className="text-light">Harvard Online Learning</h2>
                             <p className="text-justify p-3 text-light"> Explore los cursos en línea de la Universidad de Harvard. Ya sea que se trate de cursos gratuitos sobre literatura o cursos de negocios premium para ejecutivos, hay algo para usted</p>
@@ -136,9 +136,9 @@ class TabVirtual extends Component {
                                 <li className="text-left">Educacion y enseñanza</li>
                                 <li className="text-left">Ciencias de la computación</li>
                             </ul>         
-                            <p><a class="btn btn-outline-light" href="https://online-learning.harvard.edu/catalog" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="https://online-learning.harvard.edu/catalog" role="button">Ver más »</a></p>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div className="col-lg-4 text-center">
                             <img className="bd-placeholder-img rounded-circle mb-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfhUTgDLGJ0cXJ9WfUkXhs8CyuFUDZFUjgsqQmMBE368uY8_D8&usqp=CAU" width="180" height="180" alt="..."/>
                             <h2 className="text-light">Stanford Online</h2>
                             <p className="text-justify p-3 text-light">Nuestros cursos gratuitos en línea le brindan una forma económica y flexible de aprender nuevas habilidades y estudiar temas nuevos y emergentes. Aprenda de los instructores de Stanford y expertos de la industria sin costo para usted. Gran variedad de temáticas. </p>
@@ -152,7 +152,7 @@ class TabVirtual extends Component {
                                 <li className="text-left">Educacion </li>
                                 <li className="text-left">Ciencias de la computación</li>
                             </ul>         
-                            <p><a class="btn btn-outline-light" href="https://online.stanford.edu/courses-programs" role="button">Ver más »</a></p>
+                            <p><a className="btn btn-outline-light" href="https://online.stanford.edu/courses-programs" role="button">Ver más »</a></p>
                         </div>                                            
                     </div>
                     </div>

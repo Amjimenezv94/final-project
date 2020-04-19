@@ -16,7 +16,7 @@ class Footer extends Component {
   render() {
     return (
 
-      <footer class="footer">
+      <footer className="footer">
         <nav className="contenedor-footer ">
           <div className="container d-flex flex-column flex-md-row justify-content-between">
 
@@ -55,7 +55,7 @@ class Footer extends Component {
 
           </div>
 
-          <div class="footer-copyright text-center py-0 mt-5 text-light copy">&copy; {(new Date().getFullYear())} | Academia Geek.
+          <div className="footer-copyright text-center py-0 mt-5 text-light copy">&copy; {(new Date().getFullYear())} | Academia Geek.
           </div>
         </nav>
       </footer>
