@@ -14,20 +14,13 @@ body{
     box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
 }
 
-.card-body{
-    padding: 3rem 0!important ;
-    
-    
-}
 @media (max-width: 600px) {
-    .card-body{
-      ;
+    .titulo-result{
+      font-size: 90px;
+      margin-left: 30px;
     }
   }
   
-
-
-
 .card-text{
     font-size: 0.9rem;
     padding: 0.4rem 1.9rem ;
@@ -65,4 +58,10 @@ p{
     justify-content: center;
     margin-left:100px;
 }
+
+@media (max-width: 600px) {
+    .titulo-result{
+      font-size: 16px ;
+    }
+  }
 
