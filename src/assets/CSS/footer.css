@@ -29,10 +29,11 @@
 }
 
 @media (max-width: 600px) {
-  .copy-r{
+  .footer-copyright{
     text-align: center;
     margin-bottom: 10px;
     
+    display: table-caption;
   }
 }
 
@@ -44,4 +45,12 @@
   }
 }
 
+
+@media (max-width: 600px) {
+  .contenerdor-orientacion{
+    padding: 0rem!important;
+    margin:0rem!important;
+
+  }
+}
 
