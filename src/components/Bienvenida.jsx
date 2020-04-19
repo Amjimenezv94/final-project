@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../assets/CSS/bienvenida.css'
-import Login from './Login.jsx'
-
 
 class Bienvenida extends Component {
     
