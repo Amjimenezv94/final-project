@@ -16,7 +16,7 @@ class Bienvenida extends Component {
        // var local =JSON.stringify(localStorage.getItem("Nombre")
     openTab = () => {
         console.log('hello world');
-        document.getElementById('profesiones').click(); 
+        document.getElementById('pills-test-tab').click(); 
     };
 
     
