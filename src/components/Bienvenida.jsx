@@ -35,7 +35,6 @@ class Bienvenida extends Component {
                             </div>
                             <a className="boton-bienvenida btn btn-outline-light btn-lg mb-5" onClick={this.openTab}>ORIENTAME</a>
 
-                            <Login/>
                         </div>
                     </div>
                 </div>

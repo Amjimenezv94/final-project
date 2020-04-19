@@ -14,7 +14,7 @@ class ResultTest extends Component{
     }
 
     displayComponent = (contador) => {
-        let className = 'col-md-6 p-3';
+        let className = 'col-md-12 p-3';
 
         if (this.props.seleccion !== contador) {
             className += ' d-none';

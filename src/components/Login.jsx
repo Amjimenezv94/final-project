@@ -26,17 +26,17 @@ class Login extends Component {
 
        
        return(
-         <div>
+         <div className="justify-content-center">
              {
                  user ?
-                 <p  className="text-center "> Hola, {user.displayName}, Da click en Orientame !</p>
+                 <p  className="text-center text-light "> Hola, <strong>{user.displayName}</strong>!</p>
                  
-                  : <p className="text-center "> Porfavor, Logueate</p>
+                  : <p className="text-center text-light"> Porfavor, Logueate</p>
 
               }
               {
-                  user ? <button className ="btn btn-outline-light btn-lg mb-5"  onClick={signOut}>Sing out</button>
-                       : <button className ="btn btn-outline-light btn-lg mb-5"  onClick={signInWithGoogle}>Ingresa con Google</button>
+                  user ? <button className ="btn btn-outline-light btn-lg aling-items-center"  onClick={signOut}>Sing out</button>
+                       : <button className ="btn btn-outline-light btn-lg aling-items-center"  onClick={signInWithGoogle}>Ingresa con Google</button>
               }
               
          </div>  

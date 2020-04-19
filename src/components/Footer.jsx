@@ -5,6 +5,7 @@ import '../assets/CSS/footer.css';
 import FacebookIcon from '../assets/img/FacebookIcon.png';
 import InstagramIcon from '../assets/img/InstagramIcon.png';
 import TwitterIcon from '../assets/img/twitter.png';
+import Login from './Login.jsx'
 
 
 class Footer extends Component {
@@ -18,10 +19,10 @@ class Footer extends Component {
       <footer class="footer">
         <nav className="contenedor-footer ">
           <div className="container d-flex flex-column flex-md-row justify-content-between">
-            
-          <div className=" col-md-4">
-              <div className='logos mt-3'>
-              <a className="py-2" href="https://www.facebook.com/orientame.antioquia.7" aria-label="Product">
+
+            <div className=" col-md-4">
+              <div className='logos mt-3 pl-5'>
+                <a className="py-2" href="https://www.facebook.com/orientame.antioquia.7" aria-label="Product">
                   <img className="mr-5" src={FacebookIcon} width="40" height="36" fill="none" stroke="currentColor" />
                 </a>
                 <a className="py-2" href="https://www.instagram.com/orientar_antioquia/" aria-label="Product">
@@ -35,7 +36,9 @@ class Footer extends Component {
 
             <div className='col-md-4'>
               <div>
-              <p className="copy-r text-white justify-content-center mt-3 ">&copy; {(new Date().getFullYear())} | Academia Geek.</p>
+                
+              <Login/>
+              
               </div>
             </div>
 
@@ -50,6 +53,9 @@ class Footer extends Component {
               </div>
             </div>
 
+          </div>
+
+          <div class="footer-copyright text-center py-3 mt-5 text-light">&copy; {(new Date().getFullYear())} | Academia Geek.
           </div>
         </nav>
       </footer>
