@@ -12,23 +12,13 @@
 .footer-copyright{
   padding-right: 100px;
   padding-bottom: 5px;
-  
-  
 }
 
-@media (max-width: 600px) {
-  .footer-copyright{
-    padding-right: 60px;
-    ;
-  }}  
 
 @media (max-width: 600px) {
   .logos{
     text-align: center;
-    margin-right: 50px;
     padding-left: 0rem !important;
-    
-  
   }
 }
 
@@ -36,6 +26,7 @@
   .footer-copyright{
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 90px;
   }
 }
 
