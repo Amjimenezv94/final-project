@@ -12,11 +12,11 @@ class UserTextImg6 extends Component {
       return (
          <div>
             <div className="my-5 text-center">
-               <h1 className=" py-5 text-light"> TEST DE IMÁGENES </h1>
-               <p className="lead px-5 mx-5 text-justify text-light text-center" > A continuación te solicitaremos que selecciones una imagen y despues da un click en siguiente.<br></br>
+               <h1 className="titulo-imagenes py-5 text-light"> TEST DE IMÁGENES </h1>
+               <p className="parrafo-imagenes lead px-5 mx-5 text-justify text-light text-center" > A continuación te solicitaremos que selecciones una imagen y despues da un click en siguiente.<br></br>
                Después haber realizado el click en siguiente no te podras devolver.</p>
             </div>
-            <div className="row justify-content-center pl-5">
+            <div className="row imagen-test justify-content-center pl-5">
                <div className="col-lg-3 mr-3 mb-5 text-center ">
                   <input className="img-user-test" id="ciencias-salud" type='image' src="https://img.freepik.com/vector-gratis/equipo-medicos-enfermeras_23-2148497394.jpg?size=338&ext=jpg" width="160" height="160" />
                   <div className="row text-center">

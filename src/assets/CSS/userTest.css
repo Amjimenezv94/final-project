@@ -8,3 +8,39 @@
 .container{
 margin-top: 50px;
 }
+
+@media (max-width: 600px) {
+  .parrafo-imagenes {
+     font-size: 16px;
+     padding: 0rem!important;
+     margin: 1rem!important;
+  }
+}
+
+@media (max-width: 600px) {
+  .titulo-imagenes {
+     padding: 0rem!important;
+     margin: 1rem!important;
+  }
+}
+
+@media (max-width: 600px) {
+  .panel-body{
+     padding: 0rem!important;
+     margin: 0rem!important;
+  }
+}
+
+@media (max-width: 600px) {
+  .imagen-test{
+     padding: 0rem 0rem 1rem 0rem!important;
+     margin: 0rem!important;
+  }
+}
+@media (max-width: 600px) {
+  .contenedor-o{
+    padding: 0rem!important;
+    margin:0rem!important;
+
+  }
+}
