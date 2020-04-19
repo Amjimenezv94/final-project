@@ -1,0 +1,42 @@
+.buttonso{
+    justify-content: center;
+   margin-left: 60px;
+    align-content: space-between;
+
+}
+
+
+
+.container{
+    justify-content: space-between;
+    justify-content: center;
+
+    
+}
+
+.textB{
+padding-right: 100px;
+padding-right: -50px;
+font-size: 15px;
+
+}
+
+.textA{
+    padding-right: 100px;
+}
+
+@media (max-width: 600px) {
+    .container{
+      padding-left: 45px;
+      ;
+    }
+    .textB{
+        padding-right: 40px ;
+        margin-top:20px;
+        justify-content: right;
+        
+        
+        }
+
+
+}  

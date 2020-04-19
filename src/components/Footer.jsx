@@ -55,7 +55,7 @@ class Footer extends Component {
 
           </div>
 
-          <div class="footer-copyright text-center py-3 mt-5 text-light">&copy; {(new Date().getFullYear())} | Academia Geek.
+          <div class="footer-copyright text-center py-0 mt-5 text-light copy">&copy; {(new Date().getFullYear())} | Academia Geek.
           </div>
         </nav>
       </footer>

@@ -6,8 +6,8 @@ import HomePage from '../pages/homePage.jsx';
 import ResultTest from '../pages/ResultTest.jsx';
 import EduMod from '../pages/EduMod.jsx';
 import Contact from '../pages/Contact.jsx';
-import UserTest from '../pages/UserTest.jsx'
-import Login from './Login.jsx'
+import UserTest from '../pages/userTest.jsx'
+import Explorar from './Explorar.jsx'
 
 
 class NavBar extends Component {
@@ -28,23 +28,26 @@ class NavBar extends Component {
                             <a className="py-2 mr-5 ml-4 float-left  " href="#" aria-label="Product">
                                 <img src={logoWhite} className="" width="200" height="43" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
                             </a>
-                            <li class="nav-item  py-2 mt-2 mr-4 ml-5" >
-                                <a class="navegacion active text-light " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <p>Inicio</p></a>
+                            <li className="nav-item  py-2 mt-2 mr-4 ml-5" >
+                                <a className="navegacion active text-light " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <p>Inicio</p></a>
                             </li>
-                            <li class="nav-item  py-2 mt-2 mr-4 ml-5" >
-                                <a class="navegacion active text-light " id="pills-nosotros-tab" data-toggle="pill" href="#pills-nosotros" role="tab" aria-controls="pills-nosotros" aria-selected="true"> <p>Nosotros</p></a>
+                            <li className="nav-item  py-2 mt-2 mr-4 ml-5" >
+                                <a className="navegacion active text-light " id="pills-nosotros-tab" data-toggle="pill" href="#pills-nosotros" role="tab" aria-controls="pills-nosotros" aria-selected="true"> <p>Nosotros</p></a>
                             </li>
-                            <li class="nav-item py-2 mt-2 mr-4" >
-                                <a class="navegacion text-light" id="pills-test-tab" data-toggle="pill" href="#pills-test" role="tab" aria-controls="pills-test" aria-selected="false" id="profesiones"> <p>Orientame</p></a>
+                            <li className="nav-item py-2 mt-2 mr-4" >
+                                <a className="navegacion text-light" id="pills-test-tab" data-toggle="pill" href="#pills-test" role="tab" aria-controls="pills-test" aria-selected="false" id="profesiones"> <p>Orientame</p></a>
                             </li>
-                            <li class="nav-item py-2 mt-2 mr-4" >
-                                <a class="navegacion text-light" id="pills-profesiones-tab" data-toggle="pill" href="#pills-profesiones" role="tab" aria-controls="pills-profesiones" aria-selected="false" id="profesiones"> <p>Profesiones</p></a>
+                            <li className="nav-item py-2 mt-2 mr-4" >
+                                <a className="navegacion text-light disabled" id="pills-profesiones-tab" data-toggle="pill" href="#pills-profesiones" role="tab" aria-controls="pills-profesiones" aria-selected="false" id="profesiones" > <p>Resultado</p></a>
                             </li>
-                            <li class="nav-item py-2 mt-2 mr-4" >
-                                <a class="navegacion  text-light" id="pills-modalidad-tab" data-toggle="pill" href="#pills-modalidad" role="tab" aria-controls="pills-modalidad" aria-selected="true"> <p>Modalidades</p></a>
+                            <li className="nav-item py-2 mt-2 mr-4" >
+                                <a className="navegacion   text-light" id="pills-explorar-tab" data-toggle="pill" href="#pills-explorar" role="tab" aria-controls="pills-explorar" aria-selected="true"> <p>Explorar</p></a>
                             </li>
-                            <li class="nav-item py-2 mt-2 mr-4" >
-                                <a class="navegacion   text-light" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="true"> <p>Contacto</p></a>
+                            <li className="nav-item py-2 mt-2 mr-4" >
+                                <a className="navegacion  text-light" id="pills-modalidad-tab" data-toggle="pill" href="#pills-modalidad" role="tab" aria-controls="pills-modalidad" aria-selected="true"> <p>Modalidades</p></a>
+                            </li>
+                            <li className="nav-item py-2 mt-2 mr-4" >
+                                <a className="navegacion   text-light" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="true"> <p>Contacto</p></a>
                             </li>
                            
 
@@ -56,6 +59,7 @@ class NavBar extends Component {
                             <div className="tab-pane fade " id="pills-nosotros" role="tabpanel" aria-labelledby="pills-nosotros-tab"><AcercaDeNosotros /></div>
                             <div className="tab-pane fade" id="pills-test" role="tabpanel" aria-labelledby="pills-test-tab"><UserTest/></div>
                             <div className="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>
+                            <div className="tab-pane fade" id="pills-explorar" role="tabpanel" aria-labelledby="pills-explorar-tab"><Explorar /></div>
                             <div className="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>
                             <div className="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><Contact/></div>
                         </div>
