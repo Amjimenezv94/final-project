@@ -6,8 +6,8 @@ import HomePage from '../pages/homePage.jsx';
 import ResultTest from '../pages/ResultTest.jsx';
 import EduMod from '../pages/EduMod.jsx';
 import Contact from '../pages/Contact.jsx';
-import Explorar from './Explorar.jsx';
-import UserTest from '../pages/UserTest.jsx';
+import UserTest from '../pages/UserTest.jsx'
+import Explorar from './Explorar.jsx'
 
 
 class NavBar extends Component {
@@ -35,10 +35,10 @@ class NavBar extends Component {
                                 <a className="navegacion active text-light " id="pills-nosotros-tab" data-toggle="pill" href="#pills-nosotros" role="tab" aria-controls="pills-nosotros" aria-selected="true"> <p>Nosotros</p></a>
                             </li>
                             <li className="nav-item py-2 mt-2 mr-4" >
-                                <a className="navegacion text-light" id="pills-test-tab" data-toggle="pill" href="#pills-test" role="tab" aria-controls="pills-test" aria-selected="false"> <p>Orientame</p></a>
+                                <a className="navegacion text-light" id="pills-test-tab" data-toggle="pill" href="#pills-test" role="tab" aria-controls="pills-test" aria-selected="true"> <p>Orientame</p></a>
                             </li>
                             <li className="nav-item py-2 mt-2 mr-4" >
-                                <a className="navegacion text-light disabled" id="pills-profesiones-tab" data-toggle="pill" href="#pills-profesiones" role="tab" aria-controls="pills-profesiones" aria-selected="false" id="profesiones" > <p>Resultado</p></a>
+                                <a className="navegacion text-light disabled" id="pills-profesiones-tab" data-toggle="pill" href="#pills-profesiones" role="tab" aria-controls="pills-profesiones" aria-selected="true" id="profesiones" > <p>Resultado</p></a>
                             </li>
                             <li className="nav-item py-2 mt-2 mr-4" >
                                 <a className="navegacion   text-light" id="pills-explorar-tab" data-toggle="pill" href="#pills-explorar" role="tab" aria-controls="pills-explorar" aria-selected="true"> <p>Explorar</p></a>
