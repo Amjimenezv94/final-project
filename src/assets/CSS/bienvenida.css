@@ -17,11 +17,21 @@
 .parrafo-orientacion{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
+  margin-top: 0rem!important;
+  padding-left: 0rem!important;
 }
 
 @media (max-width: 600px) {
   .parrafo-orientacion{
      font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container{
+     padding: 1rem!important;
+     margin: 0rem!important;
+
   }
 }
 
@@ -34,12 +44,14 @@
 @media (max-width: 600px) {
   .input-bienvenida{
      margin-bottom: 15px;
+     text-align: center;
   }
 }
 
 @media (max-width: 600px) {
   .boton-bienvenida{
-  margin-left: 65px;
+   margin-left: 60px;  
   }
 }
+
 

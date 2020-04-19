@@ -19,6 +19,14 @@ body{
     
     
 }
+@media (max-width: 600px) {
+    .card-body{
+      ;
+    }
+  }
+  
+
+
 
 .card-text{
     font-size: 0.9rem;
