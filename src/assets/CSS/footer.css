@@ -9,22 +9,37 @@
   margin-bottom: 0;
 
 }
+.footer-copyright{
+  padding-right: 100px;
+  padding-bottom: 5px;
+  
+}
+
+@media (max-width: 600px) {
+  .footer-copyright{
+    padding-right: 5px;
+    ;
+  }}  
 
 @media (max-width: 600px) {
   .logos{
     text-align: center;
+  
   }
 }
 
 @media (max-width: 600px) {
   .copy-r{
     text-align: center;
+    margin-bottom: 10px;
+    
   }
 }
 
 @media (max-width: 600px) {
   .logos-academia{
     display: none;
+    
 
   }
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 class Contact extends Component {
+    
 
     render() {
         return (
@@ -9,33 +10,33 @@ class Contact extends Component {
                     <h1 className="contacto font-weight-normal text-center"> CONTÁCTANOS </h1>
                     <p className="lead font-weight-normal">
                         Nos encanta apoyarte en tu proceso, si tienes alguna duda o sugerencia puedes hacernos la llegar</p>
-                    <form method="POST" action="" className="container">
+                    <form className="container">
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="row">
                                     <div className=" col-md-6 mb-3">
                                         <label for="firstName">Nombre</label>
-                                        <input type="text" className="form-control" id="firstName" placeholder="Nombre/s" required="" />
+                                        <input  type="text" className="form-control" id="firstName" placeholder="Nombre/s" required="" />
                                         <div className="invalid-feedback">
                                             Valid first name is required.
                                         </div>
                                     </div>
                                     <div className="col-md-6 mb-3">
                                         <label for="lastName">Apellido</label>
-                                        <input type="text" className="form-control" id="lastName" placeholder="Apellidos" required="" />
+                                        <input  type="text" className="form-control" id="lastName" placeholder="Apellidos" required="" />
                                         <div className="invalid-feedback">
                                             Valid last name is required.
                                         </div>
                                     </div>
                                     <div className="col-md-12 mb-3">
                                         <label for="country">Correo Electrónico</label>
-                                        <input type="email" className="form-control" id="email" placeholder=" ejemplo@ejemplo.com"></input>
+                                        <input  type="email" className="form-control" id="email" placeholder=" ejemplo@ejemplo.com"></input>
                                     </div>
                                    
                                     <div className="col-md-6 mb-3">
                                             <label for="country">Pais</label>
                                             <select className="custom-select d-block w-100" id="country" required="">
-                                                <option value="">Selecciona...</option>
+                                                <option value="" >Selecciona...</option>
                                                 <option>Colombia</option>
                                                 <option>Otro</option>
                                             </select>
@@ -47,7 +48,7 @@ class Contact extends Component {
                                     <div className="col-md-6 mb-3">
                                             <label for="municipio">Municipio</label>
                                             <select className="custom-select d-block w-100" id="municipio" required="">
-                                                <option value="">Selecciona...</option>
+                                                <option value="" >Selecciona...</option>
                                                 <option>Medellín</option>
                                                 <option>Abejorral</option>
                                                 <option>Amagá</option>
