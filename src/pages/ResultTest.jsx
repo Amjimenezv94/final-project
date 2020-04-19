@@ -14,7 +14,7 @@ class ResultTest extends Component{
     }
 
     displayComponent = (contador) => {
-        let className = 'col-md-12 p-3';
+        let className = 'col-md-6 p-3';
 
         if (this.props.seleccion !== contador) {
             className += ' d-none';
@@ -34,14 +34,14 @@ class ResultTest extends Component{
 
                 <div className="row ">
                     <div className="col-md-12 mt-5 text-center text-light">
-                        <h1> RAMAS Ó CAMPOS LABORALES </h1>
+                        <h1 className="titulo-result"> RAMAS Ó CAMPOS LABORALES </h1>
                         <br/>
-                        <p id="Resultado" className="text-center justify-content-center"> <strong>{local}</strong> parece que tienes habilidades marcadas en <strong>RESULTADO CONTADOR</strong> te invitamos a explorar dicha rama.</p>       
+                        <p id="Resultado" className="parrafo-resultado text-center justify-content-center"> <strong>{local}</strong> parece que tienes habilidades marcadas en <strong>RESULTADO CONTADOR</strong> te invitamos a explorar dicha rama.</p>       
                     
                     </div>
 
                    
-                    <div className={this.displayComponent('cienciasNaturales')}>
+                    <div className={this.displayComponent('cienciasNaturales')} className="card">
                         <CardResultTest imgsrc={Biologia} title='CIENCIAS NATURALES' description=' Inmerso en este mundo se encuentran aquellos quienes están en capacidad de enfrentar retos en investigación científica y tecnológica y contribuyen al desarrollo de la industria por medio de su conocimiento sobre el mundo natural.' 
                         askyourselftitle='PREGÚNTATE:' askyourself='¿Eres bueno en razonamiento lógico? 
                         ¿Te interesa conocer cómo funciona el mundo natural y universal y las leyes que lo rigen?
