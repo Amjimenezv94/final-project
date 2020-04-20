@@ -1,43 +1,81 @@
+<<<<<<< HEAD:src/pages/Contact.jsx
 import React, { Component } from 'react'
 import '../assets/CSS/contacto.css'
+=======
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+>>>>>>> origin:src/pages/Contacto.jsx
 
-class Contact extends Component {
-    
-
-    render() {
+const Contacto = () => {
+    const frmContact = { 
+        firstName:"",
+        lastName: "",
+        email:" ",
+        country:"",
+        municipio:" ",
+        comments:" ", 
+    };
+    const [contact,setContact] = useState(frmContact);
+    const [showMessage, setShowMessage] = useState(false);
+    const handleChange = e => { 
+         const {name,value} = e.target;
+         setContact({...contact,[name]:value}); 
+    };
+    const handleSubmit = e =>{
+         e.preventDefault();
+        
+         emailjs.send('default_service','template_OpH5xNz6', contact, 'user_ToDl38rGdKCfMgVbafyk0')
+         .then((response) => {
+                    console.log('SUCCESS!', response.status, response.text);
+                    setContact(frmContact);
+                    setShowMessage(true);
+         }, (err) => {
+                    console.log('FAILED...', err);
+         });
+    }
+   
+ 
         return (
             <div className="position-relative overflow-hidden p-1 text-left text-white">
+<<<<<<< HEAD:src/pages/Contact.jsx
                 <div className="contenedr-contacto col-md-5 p-lg-4 my-5 ml-4">
+=======
+                
+		        { showMessage ? <div className="alert alert-success col-md-5 mx-auto" role="alert">Mensaje Enviado!!</div> : ``}
+                <div className="col-md-5 p-lg-4 my-5 ml-4">
+>>>>>>> origin:src/pages/Contacto.jsx
                     <h1 className="contacto font-weight-normal text-center"> CONTÁCTANOS </h1>
                     <p className="parrafo-contacto lead font-weight-normal">
                         Nos encanta apoyarte en tu proceso, si tienes alguna duda o sugerencia puedes hacernos la llegar</p>
-                    <form className="container">
+                   
+                    
+                    <form onSubmit={handleSubmit} className="container">
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="row">
                                     <div className=" col-md-6 mb-3">
                                         <label for="firstName">Nombre</label>
-                                        <input  type="text" className="form-control" id="firstName" placeholder="Nombre/s" required="" />
+                                        <input onChange={handleChange} name="firstName" value={contact.firstName} type="text" className="form-control" id="firstName" placeholder="Nombre/s" required="" />
                                         <div className="invalid-feedback">
                                             Valid first name is required.
                                         </div>
                                     </div>
                                     <div className="col-md-6 mb-3">
                                         <label for="lastName">Apellido</label>
-                                        <input  type="text" className="form-control" id="lastName" placeholder="Apellidos" required="" />
+                                        <input  onChange={handleChange} name="lastName" value={contact.lastName} type="text" className="form-control" id="lastName" placeholder="Apellidos" required="" />
                                         <div className="invalid-feedback">
                                             Valid last name is required.
                                         </div>
                                     </div>
                                     <div className="col-md-12 mb-3">
-                                        <label for="country">Correo Electrónico</label>
-                                        <input  type="email" className="form-control" id="email" placeholder=" ejemplo@ejemplo.com"></input>
+                                        <label for="email">Correo Electrónico</label>
+                                        <input onChange={handleChange} name="email" value={contact.email}type="email" className="form-control" id="email" placeholder=" ejemplo@ejemplo.com"></input>
                                     </div>
                                    
                                     <div className="col-md-6 mb-3">
                                             <label for="country">Pais</label>
-                                            <select className="custom-select d-block w-100" id="country" required="">
-                                                <option value="" >Selecciona...</option>
+                                            <select className="custom-select d-block w-100" name="country" value={contact.country} onChange={handleChange} id="country" required="">
+                                                <option  value="" >Selecciona...</option>
                                                 <option>Colombia</option>
                                                 <option>Otro</option>
                                             </select>
@@ -48,7 +86,7 @@ class Contact extends Component {
 
                                     <div className="col-md-6 mb-3">
                                             <label for="municipio">Municipio</label>
-                                            <select className="custom-select d-block w-100" id="municipio" required="">
+                                            <select onChange={handleChange} className="custom-select d-block w-100" name="municipio" value={contact.municipio} id="municipio" required="">
                                                 <option value="" >Selecciona...</option>
                                                 <option>Medellín</option>
                                                 <option>Abejorral</option>
@@ -66,7 +104,7 @@ class Contact extends Component {
 
                                     <div className="col-md-12 mb-3">
                                         <label for="comments">Comentarios</label>
-                                        <input type="text" className="form-control" id="comments" placeholder="PQRS" required=""/>
+                                        <input onChange={handleChange} name="comments" value={contact.comments}type="textarea" className="form-control" id="comments" placeholder="PQRS" required=""/>
                                         <div className="invalid-feedback">
                                             Please enter your comments.
                                         </div>
@@ -86,7 +124,7 @@ class Contact extends Component {
 
 
         );
-    }
-}
+        }
 
-export default Contact;
+
+export default Contacto;

@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%./logoGorro.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description"content="Applicativo para la orientacion vocacional"/>
-    <meta name="author" content="Yulieth Andrea Clavijo, Laura Tatiana Flores & Angélica María Jiménez Villa"/>
-    <meta name="keyword" content="Orientación vocacional,orientacion vocacional, orientacion bocacional,orientacion vocasional, que estudiar, cursos, pregrados, postgrado, online,presencial"/>
-    <meta name="robots" content=".index,follow"/>
 
-    <title>Orientar app</title>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%./logoGorro.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Applicativo para la orientacion vocacional" />
+  <meta name="author" content="Yulieth Andrea Clavijo, Laura Tatiana Flores & Angélica María Jiménez Villa" />
+  <meta name="keyword"
+    content="Orientación vocacional,orientacion vocacional, orientacion bocacional,orientacion vocasional, que estudiar, cursos, pregrados, postgrado, online,presencial" />
+  <meta name="robots" content=".index,follow" />
 
-    <!-- FONTS FAMILY FRANKLYN-->
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap" rel="stylesheet">
-    
-    <!-- FONT FAMILY SOURCE CODE -->
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-  
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>Orientar app</title>
+
+  <!-- FONTS FAMILY FRANKLYN-->
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap" rel="stylesheet">
+
+  <!-- FONT FAMILY SOURCE CODE -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -31,30 +34,40 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
     -->
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_ToDl38rGdKCfMgVbafyk0");
+    })();
+  </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
 
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCzzoEGJopeuuiw7puMq06cJwGQlU1sCV0",
-    authDomain: "orientar-62559.firebaseapp.com",
-    databaseURL: "https://orientar-62559.firebaseio.com",
-    projectId: "orientar-62559",
-    storageBucket: "orientar-62559.appspot.com",
-    messagingSenderId: "595089117394",
-    appId: "1:595089117394:web:ca79076dbf399c4ddddd0b",
-    measurementId: "G-KHWLZ4M79M"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-  </body>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCzzoEGJopeuuiw7puMq06cJwGQlU1sCV0",
+      authDomain: "orientar-62559.firebaseapp.com",
+      databaseURL: "https://orientar-62559.firebaseio.com",
+      projectId: "orientar-62559",
+      storageBucket: "orientar-62559.appspot.com",
+      messagingSenderId: "595089117394",
+      appId: "1:595089117394:web:ca79076dbf399c4ddddd0b",
+      measurementId: "G-KHWLZ4M79M"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+
 </html>

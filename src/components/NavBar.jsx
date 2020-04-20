@@ -5,7 +5,7 @@ import AcercaDeNosotros from './AcercaDeNosotros';
 import HomePage from '../pages/homePage.jsx';
 import ResultTest from '../pages/ResultTest.jsx';
 import EduMod from '../pages/EduMod.jsx';
-import Contact from '../pages/Contact.jsx';
+import Contacto from '../pages/Contacto.jsx';
 import UserTest from '../pages/UserTest.jsx'
 import Explorar from './Explorar.jsx'
 
@@ -23,10 +23,10 @@ class NavBar extends Component {
                 <div className="container ">
                     <div className="container ">
 
-                        <ul class="barra-navegacion nav fixed-top justify-content-center p-2" id="pills-tab" role="tablist">
+                        <ul className="barra-navegacion nav fixed-top justify-content-center p-2" id="pills-tab" role="tablist">
 
                             <a className="py-2 mr-5 ml-4 float-left  " href="#" aria-label="Product">
-                                <img src={logoWhite} className="" width="200" height="43" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <img src={logoWhite} className="" width="200" height="43" fill="none"  stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" / >
                             </a>
                             <li className="nav-item  py-2 mt-2 mr-4 ml-5" >
                                 <a className="navegacion active text-light " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"> <p>Inicio</p></a>
@@ -61,7 +61,7 @@ class NavBar extends Component {
                             <div className="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>
                             <div className="tab-pane fade" id="pills-explorar" role="tabpanel" aria-labelledby="pills-explorar-tab"><Explorar /></div>
                             <div className="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>
-                            <div className="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><Contact/></div>
+                            <div className="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><Contacto/></div>
                         </div>
 
                     </div>
