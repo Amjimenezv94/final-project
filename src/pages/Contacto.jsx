@@ -13,12 +13,16 @@ const Contacto = () => {
     };
     const [contact,setContact] = useState(frmContact);
     const [showMessage, setShowMessage] = useState(false);
+    
     const handleChange = e => { 
+        this.setState({feedback: event.target.value})
+
          const {name,value} = e.target;
          setContact({...contact,[name]:value}); 
     };
     const handleSubmit = e =>{
          e.preventDefault();
+
         
          emailjs.send('default_service','template_OpH5xNz6', contact, 'user_ToDl38rGdKCfMgVbafyk0')
          .then((response) => {
