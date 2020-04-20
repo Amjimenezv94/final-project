@@ -15,9 +15,7 @@ const Contacto = () => {
     const [showMessage, setShowMessage] = useState(false);
     
     const handleChange = e => { 
-        this.setState({feedback: event.target.value})
-
-         const {name,value} = e.target;
+        const {name,value} = e.target;
          setContact({...contact,[name]:value}); 
     };
     const handleSubmit = e =>{
