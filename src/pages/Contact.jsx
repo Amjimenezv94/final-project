@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../assets/CSS/contacto.css'
 
 class Contact extends Component {
     
@@ -6,9 +7,9 @@ class Contact extends Component {
     render() {
         return (
             <div className="position-relative overflow-hidden p-1 text-left text-white">
-                <div className="col-md-5 p-lg-4 my-5 ml-4">
+                <div className="contenedr-contacto col-md-5 p-lg-4 my-5 ml-4">
                     <h1 className="contacto font-weight-normal text-center"> CONTÁCTANOS </h1>
-                    <p className="lead font-weight-normal">
+                    <p className="parrafo-contacto lead font-weight-normal">
                         Nos encanta apoyarte en tu proceso, si tienes alguna duda o sugerencia puedes hacernos la llegar</p>
                     <form className="container">
                         <div className="row">

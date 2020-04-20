@@ -7,6 +7,7 @@ import Ingenierias from '../assets/img/Ingenierias.jpg';
 import Economia from '../assets/img/Economia.jpg';
 import Medicina from '../assets/img/Medicina.jpg';
 import Biologia from '../assets/img/Biologia.jpg';
+import '../assets/CSS/explorar.css'
 
 class Explorar extends Component{
     constructor(props) {
@@ -23,7 +24,7 @@ class Explorar extends Component{
             <div className="container-fluid py-5 d-flex justify-content-center mx-3"> 
 
                 <div className="row ">
-                    <div className="col-md-12 mt-5 text-center text-light">
+                    <div className="container-texto-explorar col-md-12 mt-5 text-center text-light">
                         <h1> RAMAS Ó CAMPOS LABORALES </h1>
                         <br/>
                         <p > Estas son las principales áreas del saber, te invitamos a hacer una busqueda interactiva de acuerdo a tus gustos e ideales.</p>       
@@ -31,7 +32,7 @@ class Explorar extends Component{
                     </div>
 
                    
-                    <div >
+                    <div className="contenenedor-cards" >
                         <CardResultTest imgsrc={Biologia} title='CIENCIAS NATURALES' description=' Inmerso en este mundo se encuentran aquellos quienes están en capacidad de enfrentar retos en investigación científica y tecnológica y contribuyen al desarrollo de la industria por medio de su conocimiento sobre el mundo natural.' 
                         askyourselftitle='PREGÚNTATE:' askyourself='¿Eres bueno en razonamiento lógico? 
                         ¿Te interesa conocer cómo funciona el mundo natural y universal y las leyes que lo rigen?

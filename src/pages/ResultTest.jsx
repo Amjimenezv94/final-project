@@ -34,7 +34,7 @@ class ResultTest extends Component{
             <div className="container-fluid py-5 d-flex justify-content-center mx-3"> 
 
                 <div className="row ">
-                    <div className="col-md-12 mt-5 text-center text-light">
+                    <div className="contenerdor-result-uno col-md-12 mt-5 text-center text-light">
                         <h1 className="titulo-result"> RAMAS Ó CAMPOS LABORALES </h1>
                         <br/>
                         <p id="Resultado" className="parrafo-resultado text-center justify-content-center"> <strong>{local}</strong> parece que tienes habilidades marcadas en esta rama del conocimiento, te invitamos a explorar sus opciones en la siguiente card </p>       

@@ -26,17 +26,17 @@ font-size: 15px;
 }
 
 @media (max-width: 600px) {
-    .container{
-      padding-left: 45px;
-      ;
+    .container-footer{
+      text-align: center;
     }
     .textB{
-        padding-right: 40px ;
-        margin-top:20px;
-        justify-content: right;
-        
-        
+       margin-top: 2rem;
+       text-align: center;
         }
-
-
 }  
+
+@media (max-width: 600px) {
+    .buttonso{
+        margin-left: 0rem!important;
+    }
+}

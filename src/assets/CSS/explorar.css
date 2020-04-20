@@ -1,0 +1,46 @@
+
+@media (max-width: 600px) {
+  .container-texto-explorar{
+    padding: 1rem!important;
+    margin-top: 1rem;
+   
+
+  }
+}
+
+
+@media (max-width: 600px) {
+  .container-texto-explorar{
+    padding: 0rem!important;
+    margin-top: 1rem;
+    margin-right: 2rem;
+   
+
+  }
+}
+
+@media (max-width: 600px) {
+  .card{
+    padding: 0rem!important;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    width: 18rem;
+    margin-right: 3rem!important;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .card-body{
+    padding: 0rem!important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor-cards{
+    width: 30rem!important;
+  }
+}

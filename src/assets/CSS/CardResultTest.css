@@ -45,7 +45,7 @@ padding-bottom: 3rem!important ;
 
 @media (max-width: 600px) {
   .card-tab{
-    width: 200px;
+      margin: 0rem!important;
   }
 }
 
@@ -61,7 +61,29 @@ p{
 
 @media (max-width: 600px) {
     .titulo-result{
-      font-size: 16px ;
+      font-size: 40px ;
+      margin: 0rem 2rem 0rem 0rem;
     }
   }
 
+  @media (max-width: 600px) {
+    .parrafo-resultado{
+      font-size: 16px ;
+      margin: 0rem 2rem 2rem 0rem;
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .card{
+     width: 14rem;
+     height: 80rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .contenerdor-result-uno{
+     padding: 0rem!important;
+     margin-top: 1rem!important;
+    }
+  }
