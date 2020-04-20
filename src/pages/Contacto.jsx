@@ -1,10 +1,6 @@
-<<<<<<< HEAD:src/pages/Contact.jsx
-import React, { Component } from 'react'
 import '../assets/CSS/contacto.css'
-=======
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
->>>>>>> origin:src/pages/Contacto.jsx
 
 const Contacto = () => {
     const frmContact = { 
@@ -36,14 +32,10 @@ const Contacto = () => {
    
  
         return (
-            <div className="position-relative overflow-hidden p-1 text-left text-white">
-<<<<<<< HEAD:src/pages/Contact.jsx
-                <div className="contenedr-contacto col-md-5 p-lg-4 my-5 ml-4">
-=======
+                <div className="contenedr-contacto col-md-5 p-lg-4 my-5 ml-4 position-relative overflow-hidden p-1">
                 
 		        { showMessage ? <div className="alert alert-success col-md-5 mx-auto" role="alert">Mensaje Enviado!!</div> : ``}
                 <div className="col-md-5 p-lg-4 my-5 ml-4">
->>>>>>> origin:src/pages/Contacto.jsx
                     <h1 className="contacto font-weight-normal text-center"> CONTÁCTANOS </h1>
                     <p className="parrafo-contacto lead font-weight-normal">
                         Nos encanta apoyarte en tu proceso, si tienes alguna duda o sugerencia puedes hacernos la llegar</p>

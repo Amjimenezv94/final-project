@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import CardResultTest from '../components/CardResultTest.jsx';
 import artes from '../assets/img/artes.jpg';
 import Humanidades from '../assets/img/Humanidades.jpg';
