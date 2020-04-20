@@ -9,7 +9,7 @@ import UserTextImg6 from '../components/UserTextImg6';
 import UserTextThanks from '../components/UserTestThanks.jsx';
 import ResultTest from './ResultTest.jsx'
 
-class UserTest extends Component {
+class Test extends Component {
     constructor(props) {
         super(props);
 
@@ -121,4 +121,4 @@ class UserTest extends Component {
     }
 }
 
-export default UserTest;
+export default Test;
