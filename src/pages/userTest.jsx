@@ -20,7 +20,7 @@ class UserTest extends Component {
             economia: 0,
             cienciasSociales: 0,
             artes: 0,
-            cienciasNaturales: 0,
+            cienciasNaturales: 0
         };
     }
 

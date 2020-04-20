@@ -42,7 +42,7 @@ class ResultTest extends Component{
                     </div>
 
                    
-                    <div className={this.displayComponent('cienciasNaturales')} className="card">
+                    <div className={this.displayComponent('cienciasNaturales')}>
                         <CardResultTest imgsrc={Biologia} title='CIENCIAS NATURALES' description=' Inmerso en este mundo se encuentran aquellos quienes están en capacidad de enfrentar retos en investigación científica y tecnológica y contribuyen al desarrollo de la industria por medio de su conocimiento sobre el mundo natural.' 
                         askyourselftitle='PREGÚNTATE:' askyourself='¿Eres bueno en razonamiento lógico? 
                         ¿Te interesa conocer cómo funciona el mundo natural y universal y las leyes que lo rigen?
