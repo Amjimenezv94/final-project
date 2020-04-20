@@ -19,6 +19,7 @@
   .logos{
     text-align: center;
     padding-left: 0rem !important;
+    margin-bottom:3rem;
   }
 }
 
@@ -46,6 +47,26 @@
 
   }
 }
+
+
+
+@media (max-width: 600px) {
+  .contenedor-boton-bienvenida{
+    padding: 0rem!important;
+    margin:0rem!important;
+
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor-b{
+    padding: 0rem!important;
+    margin:0rem!important;
+
+  }
+}
+
+
 
 
 

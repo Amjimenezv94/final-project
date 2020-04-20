@@ -25,11 +25,11 @@ class Bienvenida extends Component {
                 <div className="col-md-5 pb-3 mt-5 pt-5">
                     <h1 className="title-orientacion font-weight-normal"> ORIENTACIÓN VOCACIONAL </h1>
                     <p className="parrafo-orientacion lead font-weight-normal pb-2">Ofrecémos un test vocacional, el cual te brindará unas bases para orientarte en tu perfil y puedas tener más claro que perfil se ajusta a ti y dónde puedes estudiar.</p>
-                    <div className="container">
-                        <div className="row">
+                    <div className="contenedor-b container">
+                        <div className="contenedor-boton-bienvenida row">
                             <div className="col-md-7">
                            
-                            <input type="text" className="input-bienvenida form-control" id="inputP" placeholder="Escribenos tu nombre..."></input>
+                            {/* <input type="text" className="input-bienvenida form-control" id="inputP" placeholder="Escribenos tu nombre..."></input> */}
                             </div>
                             <a className="boton-bienvenida btn btn-outline-light btn-lg mb-5" onClick={this.openTab}>ORIENTAME</a>
 

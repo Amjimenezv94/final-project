@@ -51,6 +51,14 @@
 @media (max-width: 600px) {
   .boton-bienvenida{
    margin-left: 60px;  
+   
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor-orientacion{
+   padding-bottom: 0rem!important;
+   
   }
 }
 
