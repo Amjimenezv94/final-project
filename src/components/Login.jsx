@@ -26,12 +26,12 @@ class Login extends Component {
 
        
        return(
-         <div className=" container-footer justify-content-center mt-0">
+         <div className=" container justify-content-center mt-0">
              {
                  user ?
                  <p  className=" textB text-center text-light aling-items-left mr-1 "> Hola, <strong>{user.displayName}</strong>!</p>
                  
-                  : <p className="textA text-center text-light aling-items-left mr-1 "> Porfavor, Logueate</p>
+                  : <p className="textA text-center text-light aling-items-left mr-1 "> Por favor, Logueate</p>
 
               }
               {
