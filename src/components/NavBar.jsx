@@ -56,9 +56,9 @@ class NavBar extends Component {
 
                         <div className="tab-content" id="pills-tabContent">
                             <div className="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><HomePage /></div>
-                            <div className="tab-pane fade " id="pills-nosotros" role="tabpanel" aria-labelledby="pills-nosotros-tab"><AcercaDeNosotros /></div>
+                            <div className="tab-pane fade " id="pills-nosotros" role="tabpanel" aria-labelledby="pills-nosotros-tab"><AcercaDeNosotros/></div>
                             <div className="tab-pane fade" id="pills-test" role="tabpanel" aria-labelledby="pills-test-tab"><Test /></div>
-                            <div className="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest /></div>
+                            <div className="tab-pane fade" id="pills-profesiones" role="tabpanel" aria-labelledby="pills-profesiones-tab"><ResultTest/></div>
                             <div className="tab-pane fade" id="pills-explorar" role="tabpanel" aria-labelledby="pills-explorar-tab"><Explorar /></div>
                             <div className="tab-pane fade " id="pills-modalidad" role="tabpanel" aria-labelledby="pills-modalidad-tab"><EduMod /></div>
                             <div className="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><Contacto /></div>

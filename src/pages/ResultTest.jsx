@@ -37,7 +37,7 @@ class ResultTest extends Component{
                     <div className="contenerdor-result-uno col-md-12 mt-5 text-center text-light">
                         <h1 className="titulo-result"> RAMAS O CAMPOS LABORALES </h1>
                         <br/>
-                        <p id="Resultado" className="parrafo-resultado text-center justify-content-center"> <strong>{local}</strong> Parece que tienes habilidades marcadas en esta rama del conocimiento, te invitamos a explorar sus opciones en la siguiente card </p>       
+                        <p id="Resultado" className="parrafo-resultado text-center justify-content-center"> <strong>{local}</strong> Parece que tienes habilidades marcadas en esta/s rama/s del conocimiento, te invitamos a explorar sus opciones en la siguiente card </p>       
                     
                     </div>
 
