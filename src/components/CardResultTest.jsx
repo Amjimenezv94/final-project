@@ -22,6 +22,8 @@ const Card = props =>{
                     <li className="ml-5 text-left">{props.item4}</li>
                     <li className="ml-5 text-left">{props.item5}</li>
                 </ul>
+
+                <p> Para conocer mas de la oferta de instituciones donde estudiar, dirige al menú Modalidades. </p>
              
             
             
